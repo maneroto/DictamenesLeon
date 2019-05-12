@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Roboto|Roboto+Slab');
+:root
+{
+	/* Colors*/
+	--orange: #f58735;
+	--lightGray: #dddddd;
+	--darkGray: #333;
+	--red: #ff3b3f;
+	--dimgray: #686f79;
+	/* Font family*/
+	--titleFamily: 'Anton', sans-serif;
+	--normalFamily: 'Roboto Slab', serif;
+	--accentFamily: 'Roboto', sans-serif;
+	/* Font size*/
+	--normalFont: 2.5vmin;
+	--smallFont: calc(0.8 * var(--normalFont));
+	--bigFont: calc(1.4 * var(--normalFont));
+	--titleFont: 8vmin;
+	--smallTitleFont: calc(0.8 * var(--titleFont));
+	--bigTitleFont: calc(1.4 * var(--titleFont));
+}
+*
+{
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+::-webkit-scrollbar
+{
+	width: 10px;
+}
+::-webkit-scrollbar-thumb
+{
+	background: var(--red);
+	border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover
+{
+	background: var(--orange);
+}
+::-webkit-scrollbar-thumb:active
+{
+	background: var(--lightGray);
+}
+::-webkit-scrollbar-track
+{
+	background: var(--darkGray);
+}
+.normalText, .boldText, .contentBtn
+{
+	font-size: var(--normalFont);
+	font-family: var(--normalFamily);
+	font-weight: 100;
+	margin: 3vh 0;
+	color: var(--thirdColor);
+}
+.boldText, .contentBtn
+{
+	font-weight: 900;
+}
+nav
+{
+	background: var(--red);
+	width: 100%;
+	min-height: 8vh;
+	padding: 1vh 5%;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+header
+{
+	width: 100%;
+	min-height: 70vh;
+	background-image: url('../img/bg-header.jpg');
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-color: rgba(0,0,0,0.8);
+	background-blend-mode: color;
+	padding: 5vh 0;
+}
+#pageTitle
+{
+	width: 100%;
+	margin: 5% 0;
+	text-align: center;
+	color: var(--red);
+	font-size: var(--bigTitleFont);
+	font-family: var(--titleFont);
+}
+header .offerContainer
+{
+	width: 100%;
+	padding: 0 5%;
+	display: grid;
+	grid-gap: 2%;
+	grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+header .offer
+{
+	background: linear-gradient(to bottom, transparent 50%, var(--red) 50%);
+	background-size: 100% 205%;
+	background-position:left top;
+	transition: all 0.5s ease;
+	border: 3px solid white;
+	color: white;
+	height: 20vh;
+}
+header .offer:hover
+{
+	position: relative;
+	top: -0.5vh;
+	cursor: pointer;
+	background-position:left bottom;
+}
+.offer
+{
+	margin: 3% 0;
+	padding: 10%;
+	text-align: center;
+	font-size: var(--normalFont);
+}
+.offer i
+{
+	display: block;
+	font-size: var(--titleFont);
+}
+#companyInformation
+{
+	min-height: 70vh;
+	padding: 10% 15%;
+	vertical-align: middle;
+	text-align: center;
+	background-color: rgba(0,0,0,0.7);
+	background-image: url('../img/informationBanner.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: scroll;
+	background-blend-mode: color;
+
+}
+.companyInformationTitle
+{
+	font-family: var(--titleFamily);
+	font-size: var(--smallTitleFont);
+	color: var(--lightGray);
+	font-weight: 900;
+}
+.companyInformationContent
+{
+	font-family: var(--normalFont);
+	font-size: var(--normalFont);
+	color: white;
+	font-weight: 100;
+	margin: 5vh 0;
+}
+#serviceContainer
+{
+	width: 100%;
+	height: auto;
+	clear: both;
+}
+#serviceContainerTitle
+{
+	font-weight: 100;
+	font-family: var(--titleFamily);
+	font-size: var(--bigTitleFont);
+	width: 100%;
+	text-align: center;
+	background: var(--darkGray);
+	color: white;
+	padding: 2% 5%;
+}
+.service
+{
+	width: 100%;
+	min-height: 50vh;
+	height: 100vh;
+	display: flex;
+}
+.service .serviceDescription
+{
+	width: 45%;
+	height: 100%;
+	order: 1;
+	background: var(--lightGray);
+	color: var(--darkGray);
+	padding: 5%;
+}
+.serviceDescription .serviceDescriptionTitle
+{
+	font-size: var(--smallTitleFont);
+	font-weight: 600;
+	text-align: center;
+	width: 100%;
+	font-family: var(--accentFamily);
+}
+.service .serviceImg
+{
+	flex:1;
+	height: 100%;
+	width: 55%;
+	object-fit: cover;
+	order: 2;
+	background: var(--darkGray);
+}
+.service:nth-child(even) .serviceDescription
+{
+	order: 2;
+}
+footer
+{
+	width: 100%;
+	height: 10vh;
+	background: var(--red);
+	display: flex;
+	color: white;
+}
+.copyright
+{
+	margin: auto;
+	font-size: var(--smallFont);
+}
+
+@media only screen and (max-width: 700px), (orientation: portrait)
+{
+	:root
+	{
+		--normalFont: 3.5vmin;
+	}
+	header
+	{
+		min-height: 40vh;
+	}
+	header .offerContainer
+	{
+		grid-template-columns:  repeat(auto-fit, minmax(25vmin,1fr));
+	}
+	header .offer
+	{
+		height: 15vmin;
+		font-size: var(--smallFont);
+	}
+	.offer i
+	{
+		font-size: var(--normalFont);
+	}
+	.service
+	{
+		display: block;
+		height: auto;	
+	}
+	.service .serviceDescription, .service .serviceImg
+	{
+		clear: both;
+		width: 100%;
+		height: 30vh;
+	}
+	.service .serviceDescription
+	{
+		height: auto;
+	}
+}
