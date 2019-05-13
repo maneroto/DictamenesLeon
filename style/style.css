@@ -70,6 +70,8 @@ nav
 	padding: 1vh 5%;
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+	position: fixed;
+	transition: top 0.3s;
 }
 header
 {
