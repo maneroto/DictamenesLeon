@@ -188,9 +188,48 @@
 			</div>
 		</div>
 	</section>
+	<section id="contactContainer">
+		<h1 id="contactContainerTitle">
+			Contáctanos
+		</h1>
+		<div id="contactOptionsContainer">
+			<div id="contactFormContainer">
+				<h2 id="contactFormTitle">
+					Evaluamos tu caso de manera gratuita
+				</h2>
+				<form method="post" id="contactForm">
+					<div class="formField">
+						<label for="name">Nombre:</label>
+						<input type="text" name="name" id="name" required>
+					</div>
+					<div class="formField">
+						<label for="email">Correo electrónico:</label>
+						<input type="email" name="email" id="email" required>
+					</div>
+					<select name="serviceType" required>
+						<option value="" selected disabled>Selecciona el tipo de servicio</option>
+						<option value="pension">Pensión</option>
+						<option value="seguro">Seguro</option>
+						<option value="afore">Afore</option>
+						<option value="curso">Curso</option>
+						<option value="capacitacion">Capacitación</option>
+						<option value="asesoria">Asesoría a empresa</option>
+					</select>
+					<textarea placeholder="Describa brevemente su caso" maxlength="200" required></textarea>
+					<button type="submit" class="btn">Enviar</button>
+				</form>
+			</div>
+			<div id="ubicationContainer">
+				<h2 id="ubicationTitle">
+					Puede visitarnos en nuestras oficinas:
+				</h2>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d14958.814078719573!2d-99.98563459999998!3d20.3951106!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2smx!4v1558768438370!5m2!1ses!2smx" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
+		</div>
+	</section>
 	<footer>
 		<p class="copyright">
-			&copy; 2019 Gerpensiones. All Rights Reserved
+			&copy; 2019 Gerpensiones. All Rights Reserved.
 		</p>
 	</footer>
 	<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>

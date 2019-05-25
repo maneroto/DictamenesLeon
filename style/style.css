@@ -12,12 +12,12 @@
 	--normalFamily: 'Roboto Slab', serif;
 	--accentFamily: 'Roboto', sans-serif;
 	/* Font size*/
-	--normalFont: 2.5vmin;
+	--normalFont: 2.4vmin;
 	--smallFont: calc(0.8 * var(--normalFont));
-	--bigFont: calc(1.4 * var(--normalFont));
-	--titleFont: 8vmin;
-	--smallTitleFont: calc(0.8 * var(--titleFont));
-	--bigTitleFont: calc(1.4 * var(--titleFont));
+	--bigFont: calc(1.2 * var(--normalFont));
+	--titleFont: 7vmin;
+	--smallTitleFont: calc(0.6 * var(--titleFont));
+	--bigTitleFont: calc(1.2 * var(--titleFont));
 }
 *
 {
@@ -72,6 +72,7 @@ nav
 	grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 	position: fixed;
 	transition: top 0.3s;
+	z-index: 10;
 }
 header
 {
@@ -120,6 +121,74 @@ header .offer:hover
 	cursor: pointer;
 	background-position:left bottom;
 }
+input, select, textarea
+{
+	width: 100%;
+	height: 100%;
+	padding: 1% 5%;
+	font-size: var(--smallFont);
+	background: white;
+	color: var(--darkGray);
+	position: relative;
+	border-radius: 5px;
+	z-index: 1;
+}
+select
+{
+	height: 5vh;
+	margin-bottom: 5vh;
+}
+textarea
+{
+	height: 15vh;
+	margin-bottom: 3vh;
+}
+.btn
+{
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 20vw;
+	height: 5vh;
+	font-size: var(--bigFont);
+	color: white;
+	border: 2px solid white;
+	border-radius: 5px;
+	background: linear-gradient(to right, transparent 50%, var(--red) 50%);
+	background-size: 205% 100%;
+	background-position:left top;
+	transition: background 0.3s ease-out;
+	padding: 0 5%;
+	margin-bottom: 3vh;
+}
+.btn:hover
+{
+	cursor: pointer;
+	background-position: top right;
+}
+.formField
+{
+	position: relative;
+	width: 100%;
+	height: 5vh;
+	margin-bottom: 5vh;
+}
+.formField label
+{
+	position: absolute;
+	font-size: var(--smallFont);
+	color: black;
+	top: 25%;
+	left: 6%;
+	z-index: 2;
+	transition: transform 0.4s ease, color 0.3s ease-out;
+}
+.formField.focused label
+{
+	transform: translateY(-160%);
+	font-size: var(--normalFont);
+	color: white;
+}
 .offer
 {
 	margin: 3% 0;
@@ -149,7 +218,7 @@ header .offer:hover
 .companyInformationTitle
 {
 	font-family: var(--titleFamily);
-	font-size: var(--smallTitleFont);
+	font-size: var(--titleFont);
 	color: var(--lightGray);
 	font-weight: 900;
 }
@@ -187,6 +256,7 @@ header .offer:hover
 }
 .service .serviceDescription
 {
+	flex: 1;
 	width: 45%;
 	height: 100%;
 	order: 1;
@@ -215,6 +285,52 @@ header .offer:hover
 {
 	order: 2;
 }
+#contactContainer
+{
+	width: 100%;
+	height: auto;
+	background: white;
+}
+#contactContainerTitle
+{
+	text-align: center;
+	font-size: var(--bigTitleFont);
+	font-family: var(--titleFamily);
+	margin: 5vh 0 10vh;
+	color: var(--darkGray);
+}
+#contactOptionsContainer
+{
+	width: 100%;
+	height: auto;
+	display: flex;
+}
+#contactFormContainer
+{
+	flex: 1;
+	min-height: 70vh;
+	background: var(--darkGray);
+	padding: 0 5%;
+	color: white;
+}
+#contactFormTitle, #ubicationTitle
+{
+	font-size: var(--smallTitleFont);
+	margin: 5vh 0;
+	text-align: center;
+}
+#ubicationContainer
+{
+	flex: 1;
+	min-height: 70vh;
+	padding: 0 5%;
+}
+#ubicationContainer iframe
+{
+	width: 100%;
+	height: 55vh;
+	margin-bottom: 3vh;
+}
 footer
 {
 	width: 100%;
@@ -228,12 +344,25 @@ footer
 	margin: auto;
 	font-size: var(--smallFont);
 }
-
-@media only screen and (max-width: 700px), (orientation: portrait)
+@media only screen and (max-width: 1125px)
+{
+	.service
+	{
+		height: 125vh;
+	}
+}
+@media only screen and (max-width: 850px)
+{
+	.service
+	{
+		height: 135vh;
+	}
+}
+@media only screen and (max-width: 780px), (orientation: portrait)
 {
 	:root
 	{
-		--normalFont: 3.5vmin;
+		--normalFont: 2.8vmin;
 	}
 	header
 	{
@@ -266,5 +395,13 @@ footer
 	.service .serviceDescription
 	{
 		height: auto;
+	}
+	#contactOptionsContainer
+	{
+		display: block;
+	}
+	#ubicationContainer iframe
+	{
+		height: 60vh;
 	}
 }
