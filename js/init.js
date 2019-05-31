@@ -1,3 +1,4 @@
+var carrouselIndex = 1;
 $(document).ready(
 function()
 {
@@ -11,7 +12,30 @@ function()
 	setNavScrollBehavior();
 	setAnchors();
 	setupInputs();
+	carrouselIndex = 1;
+	showCarrouselItem(carrouselIndex);
 });
+function showCarrouselItem(index)
+{
+	let carrouselItems = document.querySelectorAll('#companyInformation article');
+	if (index > carrouselItems.length) 
+	{
+		carrouselIndex = 1;
+	}
+	if (index < 1)
+	{
+		carrouselIndex = carrouselItems.length;
+	}
+	for (let i = 0; i < carrouselItems.length; i++) 
+	{
+		carrouselItems[i].style.display='none';
+	}
+	carrouselItems[carrouselIndex - 1].style.display = 'block';
+}
+function changeCarrouselItem(n)
+{
+	showCarrouselItem(carrouselIndex += n);
+}
 function setNavScrollBehavior()
 {
 	var prevScrollpos = window.pageYOffset;
