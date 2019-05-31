@@ -14,7 +14,23 @@ function()
 	setupInputs();
 	carrouselIndex = 1;
 	showCarrouselItem(carrouselIndex);
+	checkMobileDevice();
 });
+function checkMobileDevice()
+{
+	let inputs = document.querySelectorAll("input[type='text'], input[type='email'], input[type='url']");
+	for(let i = 0; i < inputs.length; i++)
+	{
+		if (navigator.userAgent.match(/(iPhone|iPod|iPad|iphone|ipod|ipad)/i)) 
+		{
+			inputs[i].style.fontSize = '16px';
+		}
+	}
+	let viewheight = $(window).height();
+	let viewwidth = $(window).width();
+	let viewport = document.querySelector("meta[name=viewport]");
+	viewport.setAttribute("content", "height=" + viewheight + "px, width=" + viewwidth + "px, initial-scale=1.0");
+}
 function showCarrouselItem(index)
 {
 	let carrouselItems = document.querySelectorAll('#companyInformation article');
