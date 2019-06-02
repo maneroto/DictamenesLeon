@@ -1,8 +1,29 @@
 var carrouselIndex = 1;
+var isMobileñ
 $(document).ready(
 function()
 {
-	
+	isMobile = 
+	{
+	    Android: function() {
+	        return navigator.userAgent.match(/Android/i);
+	    },
+	    BlackBerry: function() {
+	        return navigator.userAgent.match(/BlackBerry/i);
+	    },
+	    iOS: function() {
+	        return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+	    },
+	    Opera: function() {
+	        return navigator.userAgent.match(/Opera Mini/i);
+	    },
+	    Windows: function() {
+	        return navigator.userAgent.match(/IEMobile/i);
+	    },
+	    any: function() {
+	        return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+	    }
+	};
 	$.fn.goTo = function() {
 	    $('html, body').animate({
 	        scrollTop: $(this).offset().top + 'px'
@@ -21,15 +42,15 @@ function checkMobileDevice()
 	let inputs = document.querySelectorAll("input[type='text'], input[type='email'], input[type='url']");
 	for(let i = 0; i < inputs.length; i++)
 	{
-		if (navigator.userAgent.match(/(iPhone|iPod|iPad|iphone|ipod|ipad)/i)) 
+		if (isMobile.any()) 
 		{
 			inputs[i].style.fontSize = '16px';
+			let viewheight = $(window).height();
+			let viewwidth = $(window).width();
+			let viewport = document.querySelector("meta[name=viewport]");
+			viewport.setAttribute("content", "height=" + viewheight + "px, width=" + viewwidth + "px, initial-scale=1.0");
 		}
 	}
-	let viewheight = $(window).height();
-	let viewwidth = $(window).width();
-	let viewport = document.querySelector("meta[name=viewport]");
-	viewport.setAttribute("content", "height=" + viewheight + "px, width=" + viewwidth + "px, initial-scale=1.0");
 }
 function showCarrouselItem(index)
 {
