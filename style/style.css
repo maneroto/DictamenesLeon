@@ -395,7 +395,8 @@ footer
 {
 	:root
 	{
-		--normalFont: 2.8vmin;
+		--normalFont: 16px;
+		--titleFont: 20px;
 	}
 	header
 	{
