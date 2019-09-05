@@ -1,9 +1,30 @@
-var carrouselIndex = 1;
-var isMobileñ
-$(document).ready(
+window.onload = 
 function()
 {
-	isMobile = 
+	/*
+	$.fn.goTo = function() {
+	    $('html, body').animate({
+	        scrollTop: $(this).offset().top + 'px'
+	    }, 'low');
+	    return this; // for chaining...
+	}*/
+	setNavScrollBehavior();
+	//setAnchors();
+	setupInputs();
+
+	document.querySelector('#companyInformation').slider(
+	{
+		sliderItemName: 'article',
+		auto: true,
+		autoDuration: 5
+	});
+
+	checkMobileDevice();
+};
+
+function isMobile()
+{
+	mobile = 
 	{
 	    Android: function() {
 	        return navigator.userAgent.match(/Android/i);
@@ -21,28 +42,18 @@ function()
 	        return navigator.userAgent.match(/IEMobile/i);
 	    },
 	    any: function() {
-	        return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+	        return (mobile.Android() || mobile.BlackBerry() || mobile.iOS() || mobile.Opera() || mobile.Windows());
 	    }
 	};
-	$.fn.goTo = function() {
-	    $('html, body').animate({
-	        scrollTop: $(this).offset().top + 'px'
-	    }, 'low');
-	    return this; // for chaining...
-	}
-	setNavScrollBehavior();
-	setAnchors();
-	setupInputs();
-	carrouselIndex = 1;
-	showCarrouselItem(carrouselIndex);
-	checkMobileDevice();
-});
+	return mobile.any();
+}
+
 function checkMobileDevice()
 {
 	let inputs = document.querySelectorAll("input[type='text'], input[type='email'], input[type='url']");
 	for(let i = 0; i < inputs.length; i++)
 	{
-		if (isMobile.any()) 
+		if (isMobile()) 
 		{
 			inputs[i].style.fontSize = '16px';
 			let viewheight = $(window).height();
@@ -51,27 +62,6 @@ function checkMobileDevice()
 			viewport.setAttribute("content", "height=" + viewheight + "px, width=" + viewwidth + "px, initial-scale=1.0");
 		}
 	}
-}
-function showCarrouselItem(index)
-{
-	let carrouselItems = document.querySelectorAll('#companyInformation article');
-	if (index > carrouselItems.length) 
-	{
-		carrouselIndex = 1;
-	}
-	if (index < 1)
-	{
-		carrouselIndex = carrouselItems.length;
-	}
-	for (let i = 0; i < carrouselItems.length; i++) 
-	{
-		carrouselItems[i].style.display='none';
-	}
-	carrouselItems[carrouselIndex - 1].style.display = 'block';
-}
-function changeCarrouselItem(n)
-{
-	showCarrouselItem(carrouselIndex += n);
 }
 function setNavScrollBehavior()
 {

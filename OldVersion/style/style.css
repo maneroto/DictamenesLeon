@@ -236,10 +236,7 @@ textarea
 }
 #companyInformation
 {
-	min-height: 70vh;
-	padding: 10% 15%;
-	vertical-align: middle;
-	text-align: center;
+	height: 70vh;
 	background-color: rgba(0,0,0,0.7);
 	background-image: url('../img/informationBanner.jpg');
 	background-repeat: no-repeat;
@@ -247,6 +244,16 @@ textarea
 	background-attachment: scroll;
 	background-blend-mode: color;
 	position: relative;
+}
+#companyInformation article
+{
+	height: 100%;
+	text-align: center;
+	vertical-align: middle;
+	padding: 10% 15%;
+	position: absolute;
+	left: 0;
+	top: 0;
 }
 .companyInformationTitle
 {

@@ -1,0 +1,540 @@
+/* Dependences Start */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap');
+
+@keyframes appear
+{
+	0%
+	{
+		opacity: 0;
+	}
+	50%
+	{
+		opacity: 0;
+	}
+	100%
+	{
+		opacity: 1;
+	}
+}
+/* Dependences End */
+
+/* Main css Start */
+:root
+{
+	/* Font size Start */
+	--smallTextSize: calc(0.8 * var(--textSize));
+	--textSize: 2.5vmin;
+	--bigTextSize: calc(1.4 * var(--textSize));
+
+	--smallTitleSize: calc(0.8 * var(--titleSize));
+	--titleSize: 7vmin;
+	--bigTitleSize: calc(1.4 * var(--titleSize));
+	/* Font size End */
+
+	/* Color Start */
+	--primaryColor: #ff3b3f;
+	--secondaryColor: #333333;
+	--accentColor: #dddddd;
+
+	--orange: #f58735;
+	--dimgray: #686f79;
+	/* Color End */
+
+	/* Font family Start */
+	--titleFamily: 'Anton', sans-serif;
+	--textFamily: 'Roboto Slab', serif;
+	--accentFamily: 'Roboto', sans-serif;
+	/* Font family End */
+}
+
+*
+{
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+	box-sizing: border-box;
+	text-decoration: inherit;
+	text-transform: inherit;
+	color: inherit;
+	list-style: inherit;
+	font-size: inherit;
+	font-family: inherit;
+	font-weight: inherit;
+}
+
+body
+{
+	font-size: var(--textSize);
+	color: var(--secondaryColor);
+	list-style: none;
+	font-family: var(--textFamily);
+	font-weight: 300;
+	text-decoration: none;
+	text-transform: none;
+}
+::-webkit-scrollbar
+{
+	width: 10px;
+}
+::-webkit-scrollbar-thumb
+{
+	background: var(--primaryColor);
+	border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover
+{
+	background: var(--orange);
+}
+::-webkit-scrollbar-thumb:active
+{
+	background: var(--accentColor);
+}
+::-webkit-scrollbar-track
+{
+	background: var(--secondaryColor);
+}
+@media only screen and(max-width: 850px), (orientation: portrait)
+{
+	:root
+	{
+		--textSize: 3.5vmin;
+		--titleSize: 6vmin;
+	}
+}
+/* Main css End */
+
+/* General css Start */
+.sectionTitle
+{
+	font-size: var(--titleSize);
+	width: 100%;
+	padding: 2% 5%;
+	text-transform: uppercase;
+	font-family: var(--titleFamily);
+	text-align: center;
+}
+.sectionTitle.dark
+{
+	color: white;
+	background-color: var(--secondaryColor);
+}
+.btn
+{
+	display: block;
+	padding: 5px 30px;
+	border: 2px solid var(--secondaryColor);
+	text-transform: uppercase;
+	font-size: var(--bigTextSize);
+	border-radius: 5px;
+	background: linear-gradient(to right, transparent 50%, var(--primaryColor) 50%);
+	background-size: 205% 100%;
+	background-position: top left;
+	transition: background 0.3s ease-out;
+	margin: 3vh 0;
+	color: var(--secondaryColor);
+	cursor: pointer;
+	user-select: none;
+}
+.btn:hover
+{
+	background-position: top right;
+}
+.btn.dark
+{
+	border-color: white;
+	color: white;
+}
+.xCenter
+{
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.boldText
+{
+	font-weight: 700;
+}
+.smallTitle
+{
+	font-size: var(--smallTitle);
+}
+.mobile
+{
+	display: none;
+}
+@media only screen and (max-width: 850px), (orientation: portrait)
+{
+	.mobile
+	{
+		display: inherit;
+	}
+	.notInMobile
+	{
+		display: none;
+	}
+}
+/* General css End */
+
+/* Nav Start */
+.nav
+{
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	text-transform: uppercase;
+	z-index: 999999;
+	transition: top 0.5s ease;
+	user-select: none;
+}
+.nav .navContent
+{
+	background-color: var(--primaryColor);    
+	display: flex;
+    width: 100%;
+    color: white;
+}
+.nav .logo
+{
+	width: 15vmin;
+	background-color: var(--accentColor);
+	cursor: pointer;
+	padding: 10px 25px;
+}
+.nav .navMenu
+{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+	justify-content: center;
+	align-items: center;
+	flex: 1;
+}
+.nav li, .nav .submenuDisplayer
+{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+	height: 100%;
+}
+.nav li
+{
+	transition: background 0.5s ease, color 0.5s ease;
+}
+.nav li li
+{
+	padding: 15px 0;
+}
+.nav li:hover
+{
+	color: var(--primaryColor);
+	background-color: white;
+}
+.nav li li:hover
+{
+	color: white;
+	background-color: var(--primaryColor);
+}
+.nav .submenu
+{
+	position: absolute;
+	left: 0;
+	top: -100vh;
+	width: 100%;
+	transition: top 0.5s ease;
+	z-index: -1;
+	cursor: default;
+	background-color: white;
+	color: var(--primaryColor);
+	border-bottom: 1px solid var(--primaryColor);
+	padding: 0 20px;
+}
+.nav .submenu.active
+{
+	top: 100% !important;
+}
+.submenu .closeButton
+{
+	position: absolute;
+    bottom: 0;
+    right: 6%;
+    top: 1vh;
+    z-index: 1;
+    font-size: var(--bigTitleSize);
+    color: white;
+}
+.nav .toggleMenu
+{
+	font-size: var(--bigTitleSize);
+	align-self: center;
+	margin: 0 5%;
+	cursor: pointer;
+}
+@media only screen and (max-width: 850px), (orientation: portrait)
+{
+	.nav .navContent
+	{
+		justify-content: space-between;
+	}
+	.nav .logo
+	{
+		padding: 5px 10px;
+	}
+	.nav .navMenu
+	{
+		display: block;
+		position: absolute;
+		left: 0;
+		width: 100%;
+		height: auto;
+		transition: left 0.4s ease;
+		background-color: var(--secondaryColor);
+	}
+	.navContent > .navMenu
+	{
+		left: -100vw;
+		top: 100%;
+	}
+	.navContent > .navMenu.active
+	{
+		left: 0;
+	}
+	.nav li
+	{
+		padding: 20px 5%;
+	}
+	.nav .submenu
+	{
+		top: 0;
+		left: -100vw;
+		transition: left 0.4s ease;
+		z-index: 1;
+	}
+	.nav .submenu.active
+	{
+		top: 0 !important;
+		left: 0 !important;
+	}
+}
+/* Nav End */
+
+/* About Start */
+.about
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 5% 15%;
+	position: relative;
+	text-align: center;
+	min-height: 60vh;
+	background-color: rgba(0,0,0,0.6);
+	background-image: url('../img/bg-about.jpg');
+	background-blend-mode: color;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: white;
+}
+.about .aboutTitle
+{
+	font-size: var(--titleSize);
+	margin-bottom: 5vh;
+}
+.about .sliderButtons
+{
+	position: absolute;
+	user-select: none;
+	width: 100%;
+	bottom: 5%;
+}
+.about .sliderButtons > *
+{
+	cursor: pointer;
+	position: absolute;
+	bottom: 0;
+	padding: 5px 25px;
+	color: white;
+	font-size: var(--bigTextSize);
+	border-radius: 10px;
+	background-repeat: no-repeat;
+	background-size: 210% 100%;
+	transition: background 0.3s ease, color 0.4s ease;
+}
+.about .sliderButtonPrev
+{
+	background-image: linear-gradient(to right, var(--secondaryColor) 50%, var(--accentColor) 50%);
+	background-position: top left;
+	left: 5%;
+}
+.about .sliderButtonNext
+{
+	background-image: linear-gradient(to right, var(--accentColor) 50%, var(--secondaryColor) 50%);
+	background-position: top right;
+	right: 5%;
+}
+.about .sliderButtonPrev:hover
+{
+	background-position: top right;
+	color: var(--secondaryColor);
+}
+.about .sliderButtonNext:hover
+{
+	background-position: top left;
+	color: var(--secondaryColor);
+}
+/* About End */
+
+/* Services Start */
+.service
+{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.serviceDescription, .serviceImg
+{
+	flex: 1;
+	order: 2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.serviceImg
+{
+	width: 55%;
+	object-fit: cover;
+}
+.serviceDescription
+{
+	flex-direction: column;
+	padding: 5%;
+	background-color: var(--accentColor);
+}
+.service:nth-child(odd) .serviceDescription
+{
+	order: 1;
+}
+.serviceTitle
+{
+	font-size: var(--smallTitleSize);
+	font-weight: 700;
+	margin-bottom: 5vh;
+}
+.serviceDescription p
+{
+	margin: 2vh 0;
+}
+
+@media only screen and (max-width: 850px), (orientation: portrait)
+{
+	.service
+	{
+		flex-direction: column;
+	}
+	.serviceImg
+	{
+		width: 100%;
+		max-height: 50vh;
+	}
+	.service:nth-child(odd) .serviceDescription
+	{
+		order: 2;
+	}
+}
+/* Services End */
+
+/* Contact Start */
+.contactContent
+{
+	display: flex;
+}
+.contactContent > *
+{
+	flex: 1;
+}
+.contactContent .form
+{
+	background-color: var(--secondaryColor);
+	padding: 3% 5%;
+}
+.contactForm
+{
+	margin-top: 3vh;
+	padding: 3% 5%;
+}
+.contactForm input, .contactForm select, .contactForm textarea
+{
+	width: 100%;
+	height: 100%;
+	padding: 1% 5%;
+	font-size: var(--smallFont);
+	background: white;
+	color: var(--darkGray);
+	position: relative;
+	border-radius: 5px;
+	z-index: 1;
+}
+.contactForm select
+{
+	height: 5vh;
+	margin-bottom: 5vh;
+}
+.contactForm textarea
+{
+	height: 15vh;
+	margin-bottom: 3vh;
+}
+.contactForm .formField
+{
+	position: relative;
+	width: 100%;
+	height: 5vh;
+	margin-bottom: 5vh;
+}
+.contactForm .formField label
+{
+	position: absolute;
+	font-size: var(--smallFont);
+	color: black;
+	top: 25%;
+	left: 6%;
+	z-index: 2;
+	transition: transform 0.4s ease, color 0.3s ease-out;
+}
+.contactForm .formField.active label
+{
+	transform: translateY(-160%);
+	font-size: var(--normalFont);
+	color: white;
+}
+.contactContent .map
+{
+	padding: 3% 5%;
+}
+.contactContent .map iframe
+{
+	width: 100%;
+	height: 85%;
+	margin-top: 3vh;
+}
+@media only screen and (max-width: 850px), (orientation: portrait)
+{
+	.contactContent
+	{
+		display: block;
+	}
+	.contactContent > *
+	{
+		width: 100%;
+		min-height: 50vh;
+	}
+	.contactContent .map 
+	{
+		height: 50vh;
+	}
+}
+/* Contact End */

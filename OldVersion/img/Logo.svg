@@ -342,7 +342,7 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="83.5"
+       x="76.181747"
        y="139.39046"
        id="text2104-3"><tspan
          sodipodi:role="line"
@@ -350,5 +350,16 @@
          x="83.5"
          y="139.39046"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.93333244px;font-family:Vivaldi;-inkscape-font-specification:Vivaldi;stroke-width:0.26458332">GP</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="49.478302"
+       y="210.15933"
+       id="text2108-4"><tspan
+         sodipodi:role="line"
+         id="tspan2106-79"
+         x="43.5"
+         y="210.15933"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.93333244px;font-family:Vivaldi;-inkscape-font-specification:Vivaldi;stroke-width:0.26458332">Ger. Pensiones</tspan></text>
   </g>
 </svg>
