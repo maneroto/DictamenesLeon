@@ -130,7 +130,7 @@ body
 	background: linear-gradient(to right, transparent 50%, var(--primaryColor) 50%);
 	background-size: 205% 100%;
 	background-position: top left;
-	transition: background 0.3s ease-out;
+	transition: background 0.2s ease-out;
 	margin: 3vh 0;
 	color: var(--secondaryColor);
 	cursor: pointer;
@@ -158,6 +158,10 @@ body
 .smallTitle
 {
 	font-size: var(--smallTitle);
+}
+.smallText
+{
+	font-size: var(--smallTextSize);
 }
 .mobile
 {
@@ -200,7 +204,7 @@ body
 	width: 15vmin;
 	background-color: var(--accentColor);
 	cursor: pointer;
-	padding: 10px 25px;
+	padding: 5px 25px;
 }
 .nav .navMenu
 {
