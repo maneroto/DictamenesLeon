@@ -296,6 +296,12 @@ body
 		height: auto;
 		transition: left 0.4s ease;
 		background-color: var(--secondaryColor);
+		color: white;
+	}
+	.nav li li:hover
+	{
+		color: var(--secondaryColor);
+		background-color: white;
 	}
 	.navContent > .navMenu
 	{
