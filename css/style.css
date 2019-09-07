@@ -194,7 +194,7 @@ body
 }
 .nav .navContent
 {
-	background-color: var(--primaryColor);    
+	background-color: var(--secondaryColor);    
 	display: flex;
     width: 100%;
     color: white;
@@ -234,13 +234,13 @@ body
 }
 .nav li:hover
 {
-	color: var(--primaryColor);
+	color: var(--secondaryColor);
 	background-color: white;
 }
 .nav li li:hover
 {
 	color: white;
-	background-color: var(--primaryColor);
+	background-color: var(--secondaryColor);
 }
 .nav .submenu
 {
@@ -252,8 +252,8 @@ body
 	z-index: -1;
 	cursor: default;
 	background-color: white;
-	color: var(--primaryColor);
-	border-bottom: 1px solid var(--primaryColor);
+	color: var(--secondaryColor);
+	border-bottom: 1px solid var(--secondaryColor);
 	padding: 0 20px;
 }
 .nav .submenu.active
