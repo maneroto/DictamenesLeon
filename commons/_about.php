@@ -1,4 +1,4 @@
-<div class="about">
+<div class="aboutSection">
 	<div class="sliderItem">
 		<h2 class="aboutTitle">
 			¿Quiénes somos?

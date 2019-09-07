@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () =>
 {
 	setupInputs();
 	document.querySelector('.nav').submenu({closeButton: '.closeButton'});
-	document.querySelector('.about').slider();
+	document.querySelector('.aboutSection').slider();
 	setNavScrollBehavior();
 	setBodyPadding();
 });

@@ -1,4 +1,4 @@
-<section class="contact">
+<section class="contactSection">
 	<h2 class="sectionTitle boldText">
 		Contáctanos
 	</h2>

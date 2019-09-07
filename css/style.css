@@ -109,7 +109,7 @@ body
 {
 	font-size: var(--titleSize);
 	width: 100%;
-	padding: 2% 5%;
+	padding: 3% 5%;
 	text-transform: uppercase;
 	font-family: var(--titleFamily);
 	text-align: center;
@@ -322,7 +322,7 @@ body
 /* Nav End */
 
 /* About Start */
-.about
+.aboutSection
 {
 	display: flex;
 	justify-content: center;
@@ -339,19 +339,19 @@ body
 	background-position: center;
 	color: white;
 }
-.about .aboutTitle
+.aboutSection .aboutTitle
 {
 	font-size: var(--titleSize);
 	margin-bottom: 5vh;
 }
-.about .sliderButtons
+.aboutSection .sliderButtons
 {
 	position: absolute;
 	user-select: none;
 	width: 100%;
 	bottom: 5%;
 }
-.about .sliderButtons > *
+.aboutSection .sliderButtons > *
 {
 	cursor: pointer;
 	position: absolute;
@@ -364,24 +364,24 @@ body
 	background-size: 210% 100%;
 	transition: background 0.3s ease, color 0.4s ease;
 }
-.about .sliderButtonPrev
+.aboutSection .sliderButtonPrev
 {
 	background-image: linear-gradient(to right, var(--secondaryColor) 50%, var(--accentColor) 50%);
 	background-position: top left;
 	left: 5%;
 }
-.about .sliderButtonNext
+.aboutSection .sliderButtonNext
 {
 	background-image: linear-gradient(to right, var(--accentColor) 50%, var(--secondaryColor) 50%);
 	background-position: top right;
 	right: 5%;
 }
-.about .sliderButtonPrev:hover
+.aboutSection .sliderButtonPrev:hover
 {
 	background-position: top right;
 	color: var(--secondaryColor);
 }
-.about .sliderButtonNext:hover
+.aboutSection .sliderButtonNext:hover
 {
 	background-position: top left;
 	color: var(--secondaryColor);
@@ -538,3 +538,58 @@ body
 	}
 }
 /* Contact End */
+
+/* Footer Start */
+.footer
+{
+	width: 100%;
+	padding: 20px 0 0;
+	background-color: var(--secondaryColor);
+	color: white;
+	margin-top: 5vh;
+	font-size: var(--smallTextSize);
+}
+.footer .footerTitle
+{
+	font-size: var(--bigTextSize);
+	font-weight: bold;
+	color: var(--primaryColor);
+	margin-bottom: 3vh;
+}
+.footer .grid
+{
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-gap: 5vmin;
+	padding: 20px 5%;
+}
+.footer ul ul, .footer ul p
+{
+	position: relative;
+	left: 5%;
+}
+.footer li, .footer ul p
+{
+	margin: 1vh 0;
+	cursor: pointer;
+}
+.footer i
+{
+	color: var(--primaryColor);
+	margin-right: 1vmin;
+}
+.copyright
+{
+	background-color: rgba(0,0,0,0.3);
+	padding: 20px;
+	text-align: center;
+	position: relative;
+}
+.copyright .author
+{
+	font-size: 10px;
+	display: block;
+	margin-top: 5px;
+}
+/* Footer End */
