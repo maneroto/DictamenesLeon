@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <?php 
 	@session_start();
-	$httpProtocol = 'http://';
+	$httpProtocol = 'https://';
 	$host = $_SERVER['SERVER_NAME'];
-    $url = '/strix/DictamenesLeon/';
+    $url = '/';
     $thisPage = $_SERVER['PHP_SELF'];
     $siteName = "Gerpensiones";
     $author = 'Strix development/maneroto';
