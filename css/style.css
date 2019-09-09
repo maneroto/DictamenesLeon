@@ -583,6 +583,7 @@ body
 {
 	margin: 1vh 0;
 	cursor: pointer;
+	width: fit-content;
 }
 .footer i
 {
