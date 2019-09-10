@@ -45,6 +45,10 @@
 	--textFamily: 'Roboto Slab', serif;
 	--accentFamily: 'Roboto', sans-serif;
 	/* Font family End */
+
+	/* Media breaks Start */
+	--mobileMedia: 850px;
+	/* Media breaks End */
 }
 
 *
@@ -94,7 +98,7 @@ body
 {
 	background: var(--secondaryColor);
 }
-@media only screen and(max-width: 850px), (orientation: portrait)
+@media only screen and(max-width: var(--mobileMedia)), (orientation: portrait)
 {
 	:root
 	{
@@ -167,7 +171,7 @@ body
 {
 	display: none;
 }
-@media only screen and (max-width: 850px), (orientation: portrait)
+@media only screen and (max-width: var(--mobileMedia)), (orientation: portrait)
 {
 	.mobile
 	{
@@ -175,7 +179,7 @@ body
 	}
 	.notInMobile
 	{
-		display: none;
+		display: none !important;
 	}
 }
 /* General css End */
@@ -277,7 +281,7 @@ body
 	margin: 0 5%;
 	cursor: pointer;
 }
-@media only screen and (max-width: 850px), (orientation: portrait)
+@media only screen and (max-width: var(--mobileMedia)), (orientation: portrait)
 {
 	.nav .navContent
 	{
@@ -330,6 +334,82 @@ body
 	}
 }
 /* Nav End */
+
+/* Banner Start */
+.bannerSection
+{
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-blend-mode: color;
+	background-position: top center;
+	background-color: rgba(0,0,0,0.6);
+	background-image: url('../img/bg-header.jpg');
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 5vmin 5%;
+}
+.bannerSection .pageTitle
+{
+	color: var(--primaryColor);
+	text-transform: uppercase;
+	font-size: var(--bigTitleSize);
+	font-family: var(--titleFamily);
+	font-weight: 700;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 5vh;
+}
+.bannerSection .offerContainer
+{
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+	align-items: center;
+	grid-gap: 3vmin;
+	justify-content: center;
+	color: white;
+}
+.bannerSection .offerContainer .offer
+{
+	border: 3px solid white;
+	color: white;
+	text-align: center;
+	background-image: linear-gradient(to bottom, transparent 50%, var(--primaryColor) 50%);
+	background-size: 100% 205%;
+	background-position:left top;
+	transition: all 0.5s ease;
+	cursor: pointer;
+	position: relative;
+	padding: 3vmin 1vmin;
+}
+.bannerSection .offerContainer .offer i
+{
+	font-size: var(--bigTitleSize);
+	display: block;
+	margin-bottom: 2vmin;
+}
+.bannerSection .offerContainer .offer span
+{
+	font-size: var(--textSize);
+}
+.bannerSection .offerContainer .offer:hover
+{
+	top: -0.5vh;
+	background-position:left bottom;
+}
+@media only screen and (max-width: var(--mobileMedia)), (orientation: portrait)
+{
+	.bannerSection
+	{
+		height: 50vh;
+	}
+}
+/* Banner End */
 
 /* About Start */
 .aboutSection
@@ -439,7 +519,7 @@ body
 	margin: 2vh 0;
 }
 
-@media only screen and (max-width: 850px), (orientation: portrait)
+@media only screen and (max-width: var()--mobileMedia), (orientation: portrait)
 {
 	.service
 	{
@@ -531,7 +611,7 @@ body
 	height: 85%;
 	margin-top: 3vh;
 }
-@media only screen and (max-width: 850px), (orientation: portrait)
+@media only screen and (max-width: var(--mobileMedia)), (orientation: portrait)
 {
 	.contactContent
 	{
@@ -570,7 +650,7 @@ body
 {
 	width: 100%;
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 	grid-gap: 5vmin;
 	padding: 20px 5%;
 }
