@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <?php 
 	@session_start();
-	$httpProtocol = 'http://';
+	$httpProtocol = 'https://';
 	$host = $_SERVER['SERVER_NAME'];
     $url = '/';
     $url = '/strix/Gerpensiones/';
     $thisPage = $_SERVER['PHP_SELF'];
     $siteName = "Gerpensiones";
-    $author = 'Strix development/maneroto';
+    //$author = 'Strix development/maneroto';
     $css =
     '
     	<link rel="stylesheet" type="text/css" href="'.$httpProtocol.$host.$url.'css/style.css"/>
