@@ -155,6 +155,22 @@ body
 	left: 50%;
 	transform: translateX(-50%);
 }
+.primaryColor
+{
+	color: var(--primaryColor);
+}
+.secondaryColor
+{
+	color: var(--secondaryColor);
+}
+.accentColor
+{
+	color: var(--accentColor);
+}
+.whiteColor
+{
+	color: white;
+}
 .boldText
 {
 	font-weight: 700;
