@@ -492,6 +492,13 @@ body
 	background-position: top left;
 	color: var(--secondaryColor);
 }
+@media only screen and (max-width: var(--mobileMedia)), (orientation: portrait)
+{
+	.aboutSection
+	{
+		min-height: 100vh;
+	}
+}
 /* About End */
 
 /* Services Start */
