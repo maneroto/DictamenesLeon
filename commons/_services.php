@@ -10,53 +10,53 @@
 			</h2>
 			<p>
 				IMSS 
-				<ul>
-					<li>
-						Invalidez y vida 
-					</li>
-					<li>
-						Viudez y orfandad
-					</li>
-					<li>
-						Orfandad
-					</li>
-					<li>
-						Riesgos de trabajo 
-					</li>
-					<li>
-						Retiro, cesantía y vejez 
-					</li>
-				</ul>
 			</p>
+			<ul>
+				<li>
+					Invalidez y vida 
+				</li>
+				<li>
+					Viudez y orfandad
+				</li>
+				<li>
+					Orfandad
+				</li>
+				<li>
+					Riesgos de trabajo 
+				</li>
+				<li>
+					Retiro, cesantía y vejez 
+				</li>
+			</ul>
 			<p>
-				ISSSTE 
-				<ul>
-					<li>
-						Articulo decimo transitorio 
-					</li>
-					<li>
-						Riesgos de trabajo
-					</li>
-					<li>
-						Noveno transitorio (CUENTAS INDIVIDUALES AFORES ) 
-					</li>
-					<li>
-						Invalidez y vida
-					</li>
-					<li>
-						Viudez y orfandad
-					</li>
-					<li>
-						Orfandad
-					</li>
-					<li>
-						Riesgos de trabajo 
-					</li>
-					<li>
-						Retiro, cesantía y vejez 
-					</li>
-				</ul>	
+				ISSSTE 	
 			</p>
+			<ul>
+				<li>
+					Articulo decimo transitorio 
+				</li>
+				<li>
+					Riesgos de trabajo
+				</li>
+				<li>
+					Noveno transitorio (CUENTAS INDIVIDUALES AFORES ) 
+				</li>
+				<li>
+					Invalidez y vida
+				</li>
+				<li>
+					Viudez y orfandad
+				</li>
+				<li>
+					Orfandad
+				</li>
+				<li>
+					Riesgos de trabajo 
+				</li>
+				<li>
+					Retiro, cesantía y vejez 
+				</li>
+			</ul>
 		</div>
 	</div>
 	<div class="service">
