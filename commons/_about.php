@@ -1,6 +1,14 @@
 <div class="aboutSection">
 	<div class="sliderItem">
 		<h2 class="aboutTitle">
+			Misión
+		</h2>
+		<p>
+			Otorgar herramientas necesarias para que el trabajador que cotice en la seguridad social en México reciba una pensión de retiro de acuerdo a sus capacidad de trabajo e ingreso laboral a lo largo de su vida, así como su estrategia de retiro para lograr una mejor pensión y pueda seguir con su nivel de vida con su familia después de pensionado.
+		</p>
+	</div>
+	<div class="sliderItem">
+		<h2 class="aboutTitle">
 			¿Quiénes somos?
 		</h2>
 		<p>

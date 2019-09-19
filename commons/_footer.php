@@ -33,7 +33,13 @@
 									<i class="fab fa-facebook"></i> Facebook
 								</li>
 								<li>
-									<i class="fab fa-whatsapp"></i> Whatsapp
+									<i class="fab fa-whatsapp"></i> Whatsapp: 477 804 9612
+								</li>
+								<li>
+									<i class="fas fa-envelope"></i> Mail: contacto@gerpensiones.com
+								</li>
+								<li>
+									<i class="fas fa-envelope"></i> Mail secundario: tuejecutivoas@gmail.com
 								</li>
 							</ul>
 						</li>
@@ -41,17 +47,23 @@
 							Teléfonos
 							<ul>
 								<li>
-									<i class="fas fa-phone"></i> Móvil: 000 0000 000
+									<i class="fas fa-phone"></i> Móvil: 477 804 9612
 								</li>
 								<li>
-									<i class="fas fa-building"></i> Oficina: 000 0000 000
+									<i class="fas fa-building"></i> Oficina: 477 804 9614
 								</li>
 							</ul>
 						</li>
 						<li>
 							Ubicación
 							<p>
-								<i class="fas fa-map-marker-alt"></i> Dirección de la oficina
+								<i class="fas fa-map-marker-alt"></i> Dirección de la oficina en Guanajuato: <br>
+								Blvd. Adolfo López Mateos, Esquina Hidalgo edificio número 212 despacho 501 quinto piso León, Gto. Cp. 37000 
+
+							</p>
+							<p>
+								<i class="fas fa-map-marker-alt"></i> Dirección de la oficina en Yucatán: <br>
+								Calle 41 A POR 66 Y 68 A numero 647 Colonia HOGARES CAUCEL., MERIDA,YUCATAN C.P. 97314
 							</p>
 						</li>
 					</ul>
@@ -61,10 +73,8 @@
 						Acerca de
 					</p>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. 
+						RFC CAVG 681218IR6 <br>
+						NUMERO DE CONSAR 1907080442
 					</p>
 					<button class="btn dark smallText">
 						Envíanos un correo
