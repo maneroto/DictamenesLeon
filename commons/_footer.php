@@ -6,7 +6,7 @@
 						Links
 					</p>
 					<ul>
-						<li><i class="fas fa-chevron-right"></i> Nosotros</li>
+						<li>Nosotros</li>
 						<li>
 							Nuestros servicios
 							<ul class="footerServicesLinks">
@@ -18,7 +18,7 @@
 								<li><i class="fas fa-chevron-right"></i> Asesoría a empresas</li>
 							</ul>
 						</li>
-						<li><i class="fas fa-chevron-right"></i> Contacto</li>
+						<li>Contacto</li>
 					</ul>
 				</div>
 				<div class="contact">
