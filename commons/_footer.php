@@ -6,19 +6,19 @@
 						Links
 					</p>
 					<ul>
-						<li>Nosotros</li>
+						<li><i class="fas fa-chevron-right"></i> Nosotros</li>
 						<li>
 							Nuestros servicios
 							<ul class="footerServicesLinks">
-								<li>Pensiones</li>
-								<li>Seguros</li>
-								<li>Afores</li>
-								<li>Cursos</li>
-								<li>Capacitación</li>
-								<li>Asesoría a empresas</li>
+								<li><i class="fas fa-chevron-right"></i> Pensiones</li>
+								<li><i class="fas fa-chevron-right"></i> Seguros</li>
+								<li><i class="fas fa-chevron-right"></i> Afores</li>
+								<li><i class="fas fa-chevron-right"></i> Cursos</li>
+								<li><i class="fas fa-chevron-right"></i> Capacitación</li>
+								<li><i class="fas fa-chevron-right"></i> Asesoría a empresas</li>
 							</ul>
 						</li>
-						<li>Contacto</li>
+						<li><i class="fas fa-chevron-right"></i> Contacto</li>
 					</ul>
 				</div>
 				<div class="contact">
