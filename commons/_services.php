@@ -19,29 +19,7 @@
 			</p>
 			<div class="row">
 				<div class="col">
-					<p>
-						Invalidez y vida:
-					</p>
-					<ul>
-						<li>
-							Invalidez
-						</li>
-						<li>
-							Viudez
-						</li>
-						<li>
-							Viudez y orfandad
-						</li>
-						<li>
-							Orfandad
-						</li>
-						<li>
-							Ascendencia
-						</li>
-					</ul>
-				</div>
-				<div class="col">
-					<p>
+					<p class="primaryColor">
 						Riesgos de trabajo:
 					</p>
 					<ul>
@@ -65,6 +43,28 @@
 						</li>
 						<li>
 							Retiro, cesantía y vejez (Ley 73 estrategia personalizada para obtener mejor pensión con modalidad 40)  
+						</li>
+					</ul>
+				</div>
+				<div class="col">
+					<p class="primaryColor">
+						Invalidez y vida:
+					</p>
+					<ul>
+						<li>
+							Invalidez
+						</li>
+						<li>
+							Viudez
+						</li>
+						<li>
+							Viudez y orfandad
+						</li>
+						<li>
+							Orfandad
+						</li>
+						<li>
+							Ascendencia
 						</li>
 					</ul>
 				</div>
