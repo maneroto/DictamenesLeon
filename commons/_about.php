@@ -28,7 +28,7 @@
 			¿Por qué elegirnos?
 		</h2>
 		<p>
-			Contamos con 22 años de experiencia en el ramo, haciendo un enfoque profesional para brindarle un trato preferencial y que cumpla con SUS expectativas de manera COLECTIVA e INDIVIDUAL, atendiendo a la HONESTIDAD Y LEGALIDAD que nos caracterizan, contamos con instructores y personal calificado para la impartición de los cursos y las asesorías, para la toma de decisiones propias para el bien del trabajador y de sus familias. 
+			Contamos con 22 años de experiencia en el ramo de pensiones, lo cual nos permite brindarle una atención profesional y apegado a la ley, con un trato personal y que cumpla con sus expectativas ya sea para brindarle capacitación a su área de recursos humanos o de manera individual, atendiendo a brindarle un trato con cortesía y cubriendo todas sus necesidades, que nos caracterizan, contamos con instructores y personal calificado para la impartición de los cursos y las asesorías, para la toma de decisiones propias para el bienestar del trabajador y de sus familias. NUESTRO TRABAJO, UNA VEZ ANALIZADA CADA SITUACIÓN, ES GARANTIZADO.
 		</p>
 	</div>
 	<div class="sliderButtons">
