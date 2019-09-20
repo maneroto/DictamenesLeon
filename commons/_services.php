@@ -14,7 +14,7 @@
 			<p>
 				Llevamos a nuestro cliente a la consecución de su pensión, guiandolos en el proceso adecuado para un tramite limpio y preciso, determinando en cada caso las opciones y estrategias más viables.
 			</p>
-			<p>
+			<p class="primaryColor">
 				Tipo de pensiones por ramo IMSS:
 			</p>
 			<div class="row">

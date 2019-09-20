@@ -552,6 +552,12 @@ body
 {
 	margin: 2vh 0;
 }
+.serviceDescription li:before
+{
+	content: "\f054";
+	color: red;
+	margin-right: 5px;
+}
 
 @media only screen and (max-width: var()--mobileMedia), (orientation: portrait)
 {
