@@ -6,14 +6,26 @@
 		<img src="<?php echo $httpProtocol.$host.$url?>img/servicios/pensiones.jpg" alt="Pensiones" class="serviceImg">
 		<div class="serviceDescription">
 			<h2 class="serviceTitle">
-				Pensiones (Ley 1973 y ley actual 1997)
+				Pensiones
 			</h2>
 			<p>
-				IMSS 
+				Trámite de Pensiones (Ley 1973 y ley actual 1997) IMSS (Cuentas individuales y décimo transitorio) ISSSTE 
+			</p>
+			<p>
+				Llevamos a nuestro cliente a la consecución de su pensión, guiandolos en el proceso adecuado para un tramite limpio y preciso, determinando en cada caso las opciones y estrategias más viables.
+			</p>
+			<p>
+				Tipo de pensiones por ramo IMSS:
+			</p>
+			<p>
+				Invalidez y vida:
 			</p>
 			<ul>
 				<li>
-					Invalidez y vida 
+					Invalidez
+				</li>
+				<li>
+					Viudez
 				</li>
 				<li>
 					Viudez y orfandad
@@ -22,27 +34,18 @@
 					Orfandad
 				</li>
 				<li>
-					Riesgos de trabajo 
-				</li>
-				<li>
-					Retiro, cesantía y vejez 
+					Ascendencia
 				</li>
 			</ul>
 			<p>
-				ISSSTE 	
+				Riesgos de trabajo:
 			</p>
 			<ul>
 				<li>
-					Articulo decimo transitorio 
+					Incapacidad
 				</li>
 				<li>
-					Riesgos de trabajo
-				</li>
-				<li>
-					Noveno transitorio (CUENTAS INDIVIDUALES AFORES ) 
-				</li>
-				<li>
-					Invalidez y vida
+					Viudez
 				</li>
 				<li>
 					Viudez y orfandad
@@ -51,12 +54,18 @@
 					Orfandad
 				</li>
 				<li>
-					Riesgos de trabajo 
+					Ascendencia
 				</li>
 				<li>
-					Retiro, cesantía y vejez 
+					Orfandad
+				</li>
+				<li>
+					Retiro, cesantía y vejez (Ley 73 estrategia personalizada para obtener mejor pensión con modalidad 40)  
 				</li>
 			</ul>
+			<p>
+				Apoyamos a nuestro cliente para realizar la recuperación de recursos en Afore, Infonavit, Fovissste o Aseguradoras implicadas en proceso.
+			</p>
 		</div>
 	</div>
 	<div class="service">
