@@ -187,6 +187,16 @@ body
 {
 	display: none;
 }
+.row
+{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+.col
+{
+	flex: 1;
+}
 @media only screen and (max-width: var(--mobileMedia)), (orientation: portrait)
 {
 	.mobile

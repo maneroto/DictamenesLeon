@@ -17,52 +17,58 @@
 			<p>
 				Tipo de pensiones por ramo IMSS:
 			</p>
-			<p>
-				Invalidez y vida:
-			</p>
-			<ul>
-				<li>
-					Invalidez
-				</li>
-				<li>
-					Viudez
-				</li>
-				<li>
-					Viudez y orfandad
-				</li>
-				<li>
-					Orfandad
-				</li>
-				<li>
-					Ascendencia
-				</li>
-			</ul>
-			<p>
-				Riesgos de trabajo:
-			</p>
-			<ul>
-				<li>
-					Incapacidad
-				</li>
-				<li>
-					Viudez
-				</li>
-				<li>
-					Viudez y orfandad
-				</li>
-				<li>
-					Orfandad
-				</li>
-				<li>
-					Ascendencia
-				</li>
-				<li>
-					Orfandad
-				</li>
-				<li>
-					Retiro, cesantía y vejez (Ley 73 estrategia personalizada para obtener mejor pensión con modalidad 40)  
-				</li>
-			</ul>
+			<div class="row">
+				<div class="col">
+					<p>
+						Invalidez y vida:
+					</p>
+					<ul>
+						<li>
+							Invalidez
+						</li>
+						<li>
+							Viudez
+						</li>
+						<li>
+							Viudez y orfandad
+						</li>
+						<li>
+							Orfandad
+						</li>
+						<li>
+							Ascendencia
+						</li>
+					</ul>
+				</div>
+				<div class="col">
+					<p>
+						Riesgos de trabajo:
+					</p>
+					<ul>
+						<li>
+							Incapacidad
+						</li>
+						<li>
+							Viudez
+						</li>
+						<li>
+							Viudez y orfandad
+						</li>
+						<li>
+							Orfandad
+						</li>
+						<li>
+							Ascendencia
+						</li>
+						<li>
+							Orfandad
+						</li>
+						<li>
+							Retiro, cesantía y vejez (Ley 73 estrategia personalizada para obtener mejor pensión con modalidad 40)  
+						</li>
+					</ul>
+				</div>
+			</div>
 			<p>
 				Apoyamos a nuestro cliente para realizar la recuperación de recursos en Afore, Infonavit, Fovissste o Aseguradoras implicadas en proceso.
 			</p>
@@ -79,7 +85,7 @@
 
 			</p>
 			<p>
-				AUTOMOVILES Y CAMIONETAS: Con esta póliza garantizamos un servicio express al momento de un siniestro, con ajustadores agiles y profesionales que le brindaran una protección  de excelencia al momento que usted mas lo necesita para  tranquilidad de sus familias, contamos con una red nacional de talleres y hospitales a su disposición para su tranquilidad y la de su familia protegiendo así el patrimonio   familiar 
+				AUTOMÓVILES Y CAMIONETAS: Con esta póliza garantizamos un servicio express al momento de un siniestro, con ajustadores agiles y profesionales que le brindaran una protección  de excelencia al momento que usted mas lo necesita para  tranquilidad de sus familias, contamos con una red nacional de talleres y hospitales a su disposición para su tranquilidad y la de su familia protegiendo así el patrimonio   familiar 
 
 			</p>
 		</div>
