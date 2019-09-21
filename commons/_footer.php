@@ -69,27 +69,27 @@
 					</button>
 				</div>
 			</div>
+			<div class="ubication">
+				Ubicación
+				<div class="row">
+					<div class="col">
+						<p>
+							<i class="fas fa-map-marker-alt"></i> Dirección de la oficina en Guanajuato: <br>
+							Blvd. Adolfo López Mateos, Esquina Hidalgo edificio número 212 despacho 501 quinto piso León, Gto. Cp. 37000 
+
+						</p>
+					</div>
+					<div class="col">
+						<p>
+							<i class="fas fa-map-marker-alt"></i> Dirección de la oficina en Yucatán: <br>
+							Calle 41 A POR 66 Y 68 A numero 647 Colonia HOGARES CAUCEL., MERIDA,YUCATAN C.P. 97314
+						</p>
+					</div>
+				</div>
+			</div>
 			<div class="copyright">
 				&copy; Gerpensiones 2019
 				<span class="author"><a href="#">Created by Strix Development</a></span>
-			</div>
-		</div>
-		<div class="ubication">
-			Ubicación
-			<div class="row">
-				<div class="col">
-					<p>
-						<i class="fas fa-map-marker-alt"></i> Dirección de la oficina en Guanajuato: <br>
-						Blvd. Adolfo López Mateos, Esquina Hidalgo edificio número 212 despacho 501 quinto piso León, Gto. Cp. 37000 
-
-					</p>
-				</div>
-				<div class="col">
-					<p>
-						<i class="fas fa-map-marker-alt"></i> Dirección de la oficina en Yucatán: <br>
-						Calle 41 A POR 66 Y 68 A numero 647 Colonia HOGARES CAUCEL., MERIDA,YUCATAN C.P. 97314
-					</p>
-				</div>
 			</div>
 		</div>
 	</footer>
