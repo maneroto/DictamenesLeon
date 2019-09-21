@@ -9,7 +9,7 @@
 				Pensiones
 			</h2>
 			<p>
-				Trámite de Pensiones (Ley 1973 y ley actual 1997) IMSS (Cuentas individuales y décimo transitorio) ISSSTE 
+				Trámite de Pensiones (Ley 1973 y ley actual 1997) IMSS (Cuentas individuales y décimo transitorio) ISSSTE. 
 			</p>
 			<p>
 				Llevamos a nuestro cliente a la consecución de su pensión, guiandolos en el proceso adecuado para un tramite limpio y preciso, determinando en cada caso las opciones y estrategias más viables.
@@ -129,11 +129,11 @@
 					Riesgos de trabajo
 				</li>
 				<li>
-					Noveno transitorio (cuentas individuales Afore)
+					Noveno transitorio (cuentas individuales AFORE)
 				</li>
 			</ul>
 			<p>
-				Apoyamos a nuestro cliente para realizar la recuperación de recursos en Afore, Infonavit, Fovissste o Aseguradoras implicadas en proceso.
+				Apoyamos a nuestro cliente para realizar la recuperación de recursos en AFORE, INFONAVIT, FOVISSSTE o Aseguradoras implicadas en proceso.
 			</p>
 		</div>
 	</div>
@@ -159,10 +159,10 @@
 		</div>
 	</div>
 	<div class="service">
-		<img src="<?php echo $httpProtocol.$host.$url?>img/servicios/afores.jpg" alt="Afores" class="serviceImg">
+		<img src="<?php echo $httpProtocol.$host.$url?>img/servicios/AFOREs.jpg" alt="AFOREs" class="serviceImg">
 		<div class="serviceDescription">
 			<h2 class="serviceTitle">
-				Afores
+				AFOREs
 			</h2>
 			<p>
 				CAPACITACIONES Y FOROS CON TEMAS DE ACTUALIDAD PARA ASESORES DE AFORE Y CLIENTES. INCLUYENDO ASPECTOS LEGALES Y COMERCIALES DE LA SEGURIDAD SOCIAL 
@@ -197,35 +197,98 @@
 				Capacitaciones
 			</h2>
 			<p>
-				<ul>
-					<li>
-						Para áreas de las empresas de RECURSOS HUMANOS 
-					</li>
-					<li>
-						Dictamen IMSS-INFONAVIT 
-					</li>
-					<li>
-						TRAMITES y SOLUCION DE CAPITALES CONSTITUTIVOS A EMPRESAS DERIVADOS DE RIESGOS DE TRABAJO DEL IMSS
-					</li>
-					<li>
-						NOMINAS 
-					</li>
-					<li>
-						FINIQUITOS 
-					</li>
-					<li>
-						DEMANDAS LABORALES 
-					</li>
-				</ul>
+				Para áreas de las empresas de Recursos Humanos y Personal en general.
 			</p>
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			<div class="row">
+				<div class="col">
+					<p class="primaryColor bigText">
+						Algunos conceptos importantes:
+					</p>
+					<ul>
+						<li>
+							La vigencia de derechos
+						</li>
+						<li>
+							La reactivación
+						</li>
+						<li>
+							El papel de la AFORE
+						</li>
+						<li>
+							Los recursos de INFONAVIT
+						</li>
+						<li>
+							Trámites
+						</li>
+						<li>
+							Herederos
+						</li>
+					</ul>
+				</div>
+				<div class="col">
+					<p class="primaryColor bigText">
+						La continuación voluntaria o modalidad 40:
+					</p>
+					<ul>
+						<li>
+							Definición
+						</li>
+						<li>
+							Requisitos
+						</li>
+						<li>
+							Costo
+						</li>
+						<li>
+							Reglas de permanencia
+						</li>
+						<li>
+							Complementos
+						</li>
+						<li>
+							Análisis de convivencia
+						</li>
+					</ul>
+				</div>
+			</div>
+			<p class="primaryColor bigText">
+				El sistema de pensiones mexicano:
 			</p>
+			<ul>
+				<li>
+					¿Qué son las pensiones?
+				</li>
+				<li>
+					Tipos de pensiones
+				</li>
+				<li>
+					Pensiones de cesantía y vejez
+				</li>
+				<li>
+					Requisitos de ley
+				</li>
+				<li>
+					Semanas de cotización
+				</li>
+				<li>
+					Salario base de cotización
+				</li>
+				<li>
+					La cuantía básica
+				</li>
+				<li>
+					Los incrementos anuales
+				</li>
+				<li>
+					Forma de calcular una pensión
+				</li>
+				<li>
+					Diversos ejemplos
+				</li>
+				<li>
+					Cálculos con cifras de los participantes
+				</li>
+			</ul>
 		</div>
 	</div>
 	<div class="service">
