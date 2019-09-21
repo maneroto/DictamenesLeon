@@ -1,8 +1,8 @@
 <section class="bannerSection">
 	<h1 class="pageTitle">
 		gerpensiones
-		<span class="block">
-			
+		<span class="block smallTitle">
+			Profesionales en seguridad social y laboral
 		</span>
 	</h1>
 	<div class="offerContainer notInMobile">
