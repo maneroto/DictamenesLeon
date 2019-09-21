@@ -69,6 +69,69 @@
 					</ul>
 				</div>
 			</div>
+			<p class="primaryColor">
+				Tipo de pensiones por ramo ISSSTE:
+			</p>
+			<div class="row">
+				<div class="col">
+					<p class="primaryColor">
+						Riesgos de trabajo:
+					</p>
+					<ul>
+						<li>
+							Incapacidad
+						</li>
+						<li>
+							Viudez
+						</li>
+						<li>
+							Viudez y orfandad
+						</li>
+						<li>
+							Orfandad
+						</li>
+						<li>
+							Ascendencia
+						</li>
+						<li>
+							Retiro anticipado, cesantía y vejez.
+						</li>
+					</ul>
+				</div>
+				<div class="col">
+					<p class="primaryColor">
+						Invalidez y vida:
+					</p>
+					<ul>
+						<li>
+							Invalidez
+						</li>
+						<li>
+							Viudez
+						</li>
+						<li>
+							Viudez y orfandad
+						</li>
+						<li>
+							Orfandad
+						</li>
+						<li>
+							Ascendencia
+						</li>
+					</ul>
+				</div>
+			</div>
+			<p class="primaryColor">
+				Artículo décimo transitorio:
+			</p>
+			<ul>
+				<li>
+					Riesgos de trabajo
+				</li>
+				<li>
+					Noveno transitorio (cuentas individuales Afore)
+				</li>
+			</ul>
 			<p>
 				Apoyamos a nuestro cliente para realizar la recuperación de recursos en Afore, Infonavit, Fovissste o Aseguradoras implicadas en proceso.
 			</p>
