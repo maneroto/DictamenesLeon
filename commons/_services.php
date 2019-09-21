@@ -182,10 +182,10 @@
 				Viernes 27 de septiembre del 2019 <br>
 				De 9:2 y de 3 pm a 6 30 Pm <br> <br>
 				Temas <br>
-				Issste-Imss <br> 
+				Issste-IMSS <br> 
 				DECIMO transitorio Issste <br> 
 				NOVENO transitorio Issste CASOS PRACTICOS Y MARCO LEGAL <br>
-				Mod 40  Imss <br>
+				Mod 40  IMSS <br>
 				Mod 44 mss 
 			</p>
 		</div>
@@ -289,6 +289,30 @@
 					Cálculos con cifras de los participantes
 				</li>
 			</ul>
+			<div class="row">
+				<div class="col">
+					<p class="primaryColor bigText">
+						Dictámen IMSS-INFONAVIT
+					</p>
+				</div>
+				<div class="col">
+					<p class="primaryColor bigText">
+						Trámites y solución de capitales constitutivos a empresas derivados de riesgos de trabajo del IMSS
+					</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col">
+					<p class="primaryColor bigText">
+						Nóminas
+					</p>
+				</div>
+				<div class="col">
+					<p class="primaryColor bigText">
+						Finiquitos
+					</p>
+				</div>
+			</div>
 		</div>
 	</div>
 	<div class="service">
