@@ -289,27 +289,6 @@
 					Cálculos con cifras de los participantes
 				</li>
 			</ul>
-			<div class="row">
-				<div class="col">
-					<p class="primaryColor bigText">
-						Dictámen IMSS-INFONAVIT
-					</p>
-					<p class="primaryColor bigText">
-						Finiquitos
-					</p>
-					<p class="primaryColor bigText">
-						Nóminas
-					</p>
-					<p class="primaryColor bigText">
-						Demandas laborales
-					</p>
-				</div>
-				<div class="col">
-					<p class="primaryColor bigText">
-						Trámites y solución de capitales constitutivos a empresas derivados de riesgos de trabajo del IMSS
-					</p>
-				</div>
-			</div>
 		</div>
 	</div>
 	<div class="service">
