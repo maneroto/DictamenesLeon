@@ -721,6 +721,10 @@ body
 	color: var(--primaryColor);
 	margin-right: 1vmin;
 }
+.footer .ubication
+{
+	padding: 10px 5%;
+}
 .copyright
 {
 	background-color: rgba(0,0,0,0.3);
