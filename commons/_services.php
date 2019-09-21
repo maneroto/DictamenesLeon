@@ -159,10 +159,10 @@
 		</div>
 	</div>
 	<div class="service">
-		<img src="<?php echo $httpProtocol.$host.$url?>img/servicios/AFOREs.jpg" alt="AFOREs" class="serviceImg">
+		<img src="<?php echo $httpProtocol.$host.$url?>img/servicios/afores.jpg" alt="AFORES" class="serviceImg">
 		<div class="serviceDescription">
 			<h2 class="serviceTitle">
-				AFOREs
+				Afores
 			</h2>
 			<p>
 				CAPACITACIONES Y FOROS CON TEMAS DE ACTUALIDAD PARA ASESORES DE AFORE Y CLIENTES. INCLUYENDO ASPECTOS LEGALES Y COMERCIALES DE LA SEGURIDAD SOCIAL 

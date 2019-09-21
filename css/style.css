@@ -27,7 +27,7 @@
 	--bigTextSize: calc(1.4 * var(--textSize));
 
 	--smallTitleSize: calc(0.8 * var(--titleSize));
-	--titleSize: 7vmin;
+	--titleSize: 8vmin;
 	--bigTitleSize: calc(1.4 * var(--titleSize));
 	/* Font size End */
 
