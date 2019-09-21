@@ -593,6 +593,10 @@ body
 /* Services End */
 
 /* Other Services Start */
+.otherServices
+{
+	padding: 0 5%;
+}
 .otherServices .offerContainer
 {
 	background-color: var(--secondaryColor);
