@@ -24,6 +24,7 @@
 					<option value="curso">Curso</option>
 					<option value="capacitacion">Capacitación</option>
 					<option value="asesoria">Asesoría a empresa</option>
+					<option value="otro">Otro (especificar en la descripción del caso)</option>
 				</select>
 				<textarea placeholder="Describa brevemente su caso" maxlength="200" required></textarea>
 				<button type="submit" class="btn dark xCenter">Enviar</button>
