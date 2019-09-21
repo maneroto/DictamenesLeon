@@ -205,6 +205,35 @@ body
 	flex: 1;
 	margin: 5px;
 }
+
+.offerContainer .offer
+{
+	border: 3px solid white;
+	color: white;
+	text-align: center;
+	background-image: linear-gradient(to bottom, transparent 50%, var(--primaryColor) 50%);
+	background-size: 100% 205%;
+	background-position:left top;
+	transition: all 0.5s ease;
+	cursor: pointer;
+	position: relative;
+	padding: 3vmin 1vmin;
+}
+.offerContainer .offer i
+{
+	font-size: var(--bigTitleSize);
+	display: block;
+	margin-bottom: 2vmin;
+}
+.offerContainer .offer span
+{
+	font-size: var(--textSize);
+}
+.offerContainer .offer:hover
+{
+	top: -0.5vh;
+	background-position:left bottom;
+}
 @media only screen and (max-width: var(--mobileMedia)), (orientation: portrait)
 {
 	.mobile
@@ -408,34 +437,6 @@ body
 	justify-content: center;
 	color: white;
 }
-.offerContainer .offer
-{
-	border: 3px solid white;
-	color: white;
-	text-align: center;
-	background-image: linear-gradient(to bottom, transparent 50%, var(--primaryColor) 50%);
-	background-size: 100% 205%;
-	background-position:left top;
-	transition: all 0.5s ease;
-	cursor: pointer;
-	position: relative;
-	padding: 3vmin 1vmin;
-}
-.offerContainer .offer i
-{
-	font-size: var(--bigTitleSize);
-	display: block;
-	margin-bottom: 2vmin;
-}
-.offerContainer .offer span
-{
-	font-size: var(--textSize);
-}
-.offerContainer .offer:hover
-{
-	top: -0.5vh;
-	background-position:left bottom;
-}
 @media only screen and (max-width: var(--mobileMedia)), (orientation: portrait)
 {
 	.bannerSection
@@ -590,6 +591,17 @@ body
 	}
 }
 /* Services End */
+
+/* Other Services Start */
+.otherServices .offerContainer
+{
+	background-color: var(--secondaryColor);
+}
+.otherServices .offer
+{
+	border: none;
+}
+/* Other Services End */
 
 /* Contact Start */
 .contactContent
