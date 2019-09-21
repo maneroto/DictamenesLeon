@@ -180,7 +180,7 @@ body
 }
 .smallTitle
 {
-	font-size: var(--smallTitle);
+	font-size: var(--smallTitleSize);
 }
 .smallText
 {
