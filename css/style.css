@@ -183,6 +183,10 @@ body
 {
 	font-size: var(--smallTextSize);
 }
+.bigText
+{
+	font-size: var(--bigTextSize);
+}
 .mobile
 {
 	display: none;

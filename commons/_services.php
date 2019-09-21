@@ -14,7 +14,7 @@
 			<p>
 				Llevamos a nuestro cliente a la consecución de su pensión, guiandolos en el proceso adecuado para un tramite limpio y preciso, determinando en cada caso las opciones y estrategias más viables.
 			</p>
-			<p class="primaryColor">
+			<p class="primaryColor bigText">
 				Tipo de pensiones por ramo IMSS:
 			</p>
 			<div class="row">
@@ -69,7 +69,7 @@
 					</ul>
 				</div>
 			</div>
-			<p class="primaryColor">
+			<p class="primaryColor bigText">
 				Tipo de pensiones por ramo ISSSTE:
 			</p>
 			<div class="row">
@@ -141,14 +141,19 @@
 		<img src="<?php echo $httpProtocol.$host.$url?>img/servicios/seguros.jpg" alt="Seguros" class="serviceImg">
 		<div class="serviceDescription">
 			<h2 class="serviceTitle">
-				Polizas de seguros
+				Seguros
 			</h2>
-			<p>
-				Pólizas de GASTOS MEDICOS MAYORES: Póliza que se adapta a las necesidades de nuestros clientes, así como sus coberturas a precios adecuados al grupo familiar, garantizando un servicio de excelencia en toda la red de hospitales nacionales y cobertura extranjera.
-
+			<p class="primaryColor bigText">
+				Pólizas de gastos médicos mayores:
 			</p>
 			<p>
-				AUTOMÓVILES Y CAMIONETAS: Con esta póliza garantizamos un servicio express al momento de un siniestro, con ajustadores agiles y profesionales que le brindaran una protección  de excelencia al momento que usted mas lo necesita para  tranquilidad de sus familias, contamos con una red nacional de talleres y hospitales a su disposición para su tranquilidad y la de su familia protegiendo así el patrimonio   familiar 
+				Póliza que se adapta a las necesidades de nuestros clientes, así como sus coberturas a precios adecuados al grupo familiar, garantizando un servicio de excelencia en toda la red de hospitales nacionales y cobertura extranjera.
+			</p>
+			<p class="primaryColor bigText">
+				Automóviles y camionetas:
+			</p>
+			<p>
+				Con esta póliza garantizamos un servicio express al momento de un siniestro, con ajustadores ágiles y profesionales que le brindaran una protección  de excelencia al momento que usted más lo necesita para tranquilidad de sus familias, contamos con una red nacional de talleres y hospitales a su disposición para su tranquilidad y la de su familia, protegiendo así el patrimonio familiar.
 
 			</p>
 		</div>
