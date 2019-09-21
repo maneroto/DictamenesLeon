@@ -148,6 +148,10 @@ body
 	border-color: white;
 	color: white;
 }
+.block
+{
+	display: block;
+}
 .xCenter
 {
 	position: relative;
@@ -404,7 +408,7 @@ body
 	justify-content: center;
 	color: white;
 }
-.bannerSection .offerContainer .offer
+.offerContainer .offer
 {
 	border: 3px solid white;
 	color: white;
@@ -417,17 +421,17 @@ body
 	position: relative;
 	padding: 3vmin 1vmin;
 }
-.bannerSection .offerContainer .offer i
+.offerContainer .offer i
 {
 	font-size: var(--bigTitleSize);
 	display: block;
 	margin-bottom: 2vmin;
 }
-.bannerSection .offerContainer .offer span
+.offerContainer .offer span
 {
 	font-size: var(--textSize);
 }
-.bannerSection .offerContainer .offer:hover
+.offerContainer .offer:hover
 {
 	top: -0.5vh;
 	background-position:left bottom;
