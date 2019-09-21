@@ -596,9 +596,6 @@ body
 .otherServices
 {
 	padding: 0 5%;
-}
-.otherServices .offerContainer
-{
 	background-color: var(--secondaryColor);
 }
 .otherServices .offer
