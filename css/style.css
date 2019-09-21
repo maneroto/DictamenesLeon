@@ -178,6 +178,10 @@ body
 {
 	font-weight: 700;
 }
+.normalText
+{
+	font-size: var(--textSize);
+}
 .smallTitle
 {
 	font-size: var(--smallTitleSize);
