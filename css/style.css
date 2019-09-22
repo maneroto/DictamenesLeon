@@ -413,7 +413,7 @@ body
 	background-blend-mode: color;
 	background-position: top center;
 	background-color: rgba(0,0,0,0.6);
-	background-image: url('../img/bg-header.webp');
+	background-image: url('../img/bg-header.jpg');
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -461,7 +461,7 @@ body
 	text-align: center;
 	min-height: 60vh;
 	background-color: rgba(0,0,0,0.6);
-	background-image: url('../img/bg-about.webp');
+	background-image: url('../img/bg-about.jpg');
 	background-blend-mode: color;
 	background-size: cover;
 	background-repeat: no-repeat;
