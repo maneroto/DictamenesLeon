@@ -70,7 +70,6 @@ const clearInputs = () =>
 const setScrollListeners = () =>
 {
 	let listeners = document.querySelectorAll('[data-target]');
-	console.log(listeners);
 
 	for (let i = 0; i < listeners.length; i ++)
 	{
@@ -80,5 +79,6 @@ const setScrollListeners = () =>
 
 const scrollTo = (target) =>
 {
+	console.log(target);
 	document.querySelector(target).scrollIntoView({block: 'start', behavior: 'smooth'});
 }
