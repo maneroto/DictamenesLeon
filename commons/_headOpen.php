@@ -7,7 +7,7 @@
     //$url = '/strix/Gerpensiones/';
     $thisPage = $_SERVER['PHP_SELF'];
     $siteName = "Gerpensiones";
-    $author = 'Strix development/maneroto';
+    $author = 'Strix Development/maneroto';
     $css =
     '
     	<link rel="stylesheet" type="text/css" href="'.$httpProtocol.$host.$url.'css/style.css"/>
