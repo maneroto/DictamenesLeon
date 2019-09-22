@@ -8,37 +8,37 @@
 	<div class="offerContainer notInMobile">
 		<div class="offer">
 			<i class="fas fa-wheelchair"></i>
-			<span>
+			<span data-target='.pensionesService'>
 				Pensiones
 			</span>
 		</div>
 		<div class="offer">
 			<i class="fas fa-shield-alt"></i>
-			<span>
+			<span data-target='.segurosService'>
 				Seguros
 			</span>
 		</div>
 		<div class="offer">
 			<i class="fas fa-dollar-sign"></i>
-			<span>
+			<span data-target='.aforesService'>
 				Afores
 			</span>
 		</div>
 		<div class="offer">
 			<i class="fas fa-graduation-cap"></i>
-			<span>
+			<span data-target='.cursosService'>
 				Cursos
 			</span>
 		</div>
 		<div class="offer">
 			<i class="fas fa-chalkboard-teacher"></i>
-			<span>
+			<span data-target='.capacitacionesService'>
 				Capacitación
 			</span>
 		</div>
 		<div class="offer">
 			<i class="fas fa-building"></i>
-			<span>
+			<span data-target='.asesoriasService'>
 				Asesorías
 			</span>
 		</div>

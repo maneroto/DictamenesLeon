@@ -34,10 +34,10 @@
 					<div class="closeButton mobile">x</div>
 				</div>
 			</li>
-			<li>
+			<li data-target='.otherServicesSection'>
 				Otros servicios
 			</li>
-			<li>
+			<li data-target='.contactSection'>
 				Contacto
 			</li>
 		</ul>

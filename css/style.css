@@ -597,14 +597,15 @@ body
 /* Services End */
 
 /* Other Services Start */
-.otherServices
+.otherServicesSection
 {
 	padding: 0 5%;
 	background-color: var(--secondaryColor);
 }
-.otherServices .offer
+.otherServicesSection .offer
 {
 	border: none;
+	cursor: default;
 }
 /* Other Services End */
 

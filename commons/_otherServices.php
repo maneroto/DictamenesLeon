@@ -1,4 +1,4 @@
-<section class="otherServices">
+<section class="otherServicesSection">
 	<h2 class="sectionTitle dark">
 		Otros servicios que brindamos
 	</h2>
