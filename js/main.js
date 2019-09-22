@@ -74,14 +74,13 @@ const setScrollListeners = () =>
 	for (let i = 0; i < listeners.length; i ++)
 	{
 		listeners[i].addEventListener('click', function()
-			{
-				scrollTo(listeners[i].dataset.target);
-			});
+		{
+			scrollTo(listeners[i].dataset.target);
+		});
 	}
 }
 
 const scrollTo = (target) =>
 {
-	console.log(target);
 	document.querySelector(target).scrollIntoView({block: 'start', behavior: 'smooth'});
 }
