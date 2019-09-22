@@ -73,7 +73,10 @@ const setScrollListeners = () =>
 
 	for (let i = 0; i < listeners.length; i ++)
 	{
-		listeners[i].addEventListener('click', scrollTo(listeners[i].dataset.target));
+		listeners[i].addEventListener('click', function()
+			{
+				scrollTo(listeners[i].dataset.target)
+			});
 	}
 }
 
