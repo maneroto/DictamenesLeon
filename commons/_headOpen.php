@@ -31,10 +31,10 @@
 	<meta name="keywords" content="<?php if (isset($keywords))echo $keywords; else echo $siteName; ?>" />
 
 	<!--Metas GEO-->
-	<meta name="geo.region" content="MX" />
-	<meta name="geo.placename" content="Santiago de Quer&eacute;taro" />
-	<meta name="geo.position" content="20.606597;-100.378358" />
-	<meta name="ICBM" content="20.606597, -100.378358" />
+	<meta name="geo.region" content="MX-GUA" />
+	<meta name="geo.placename" content="Le&oacute;n" />
+	<meta name="geo.position" content="21.122245;-101.673277" />
+	<meta name="ICBM" content="21.122245, -101.673277" />
 
 	<!--Metas OG-->
 	<meta property="og:locale" content="es_MX" />
