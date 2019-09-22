@@ -110,7 +110,7 @@
 				&copy; Gerpensiones 2019
 				<span class="author">
 					<a href="mailto:maneroto@hotmail.com?Subject=Me%20gusta%20su%20trabajo%20hecho%20en%20Gerpensiones">
-						Created by Strix Development
+						Made by Strix Development
 					</a>
 				</span>
 			</div>
