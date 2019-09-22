@@ -6,19 +6,38 @@
 						Links
 					</p>
 					<ul>
-						<li>Nosotros</li>
+						<li data-target='.aboutSection'>
+							Nosotros
+						</li>
 						<li>
 							Nuestros servicios
 							<ul class="footerServicesLinks">
-								<li><i class="fas fa-chevron-right"></i> Pensiones</li>
-								<li><i class="fas fa-chevron-right"></i> Seguros</li>
-								<li><i class="fas fa-chevron-right"></i> Afores</li>
-								<li><i class="fas fa-chevron-right"></i> Cursos</li>
-								<li><i class="fas fa-chevron-right"></i> Capacitación</li>
-								<li><i class="fas fa-chevron-right"></i> Asesoría a empresas</li>
+								<li data-target='.pensionesService'>
+									<i class="fas fa-chevron-right"></i> Pensiones
+								</li>
+								<li data-target='.segurosService'>
+									<i class="fas fa-chevron-right"></i> Seguros
+								</li>
+								<li data-target='.aforesService'>
+									<i class="fas fa-chevron-right"></i> Afores
+								</li>
+								<li data-target='.cursosService'>
+									<i class="fas fa-chevron-right"></i> Cursos
+								</li>
+								<li data-target='.capacitacionesService'>
+									<i class="fas fa-chevron-right"></i> Capacitación
+								</li>
+								<li data-target='.asesoriasService'>
+									<i class="fas fa-chevron-right"></i> Asesoría a empresas
+								</li>
 							</ul>
 						</li>
-						<li>Contacto</li>
+						<li data-target='.otherServicesSection'>
+							Otros servicios
+						</li>
+						<li data-target='.contactSection'>
+							Contacto
+						</li>
 					</ul>
 				</div>
 				<div class="contact">
@@ -89,7 +108,11 @@
 			</div>
 			<div class="copyright">
 				&copy; Gerpensiones 2019
-				<span class="author"><a href="#">Created by Strix Development</a></span>
+				<span class="author">
+					<a href="mailto:maneroto@hotmail.com?Subject=Me%20gusta%20su%20trabajo%20hecho%20en%20Gerpensiones">
+						Created by Strix Development
+					</a>
+				</span>
 			</div>
 		</div>
 	</footer>
