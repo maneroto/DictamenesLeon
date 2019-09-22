@@ -1,6 +1,6 @@
 <nav class="nav">
 	<div class="navContent">
-		<img src="<?php echo $httpProtocol.$host.$url ?>img/Logo.svg" alt="Gerpensiones" class="logo">
+		<img src="<?php echo $httpProtocol.$host.$url ?>img/Logo.svg" alt="Gerpensiones" class="logo" data-target='.bannerSection'>
 		<i class="fas fa-bars mobile toggleMenu" onclick="toggleActive('.navMenu')"></i>
 		<ul class="navMenu">
 			<li data-target = '.aboutSection'>
