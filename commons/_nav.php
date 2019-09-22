@@ -3,7 +3,7 @@
 		<img src="<?php echo $httpProtocol.$host.$url ?>img/Logo.svg" alt="Gerpensiones" class="logo">
 		<i class="fas fa-bars mobile toggleMenu" onclick="toggleActive('.navMenu')"></i>
 		<ul class="navMenu">
-			<li>
+			<li data-target = '.aboutSection'>
 				Nosotros
 			</li>
 			<li>
@@ -12,23 +12,23 @@
 				</span>
 				<div class="submenu">
 					<ul class="navMenu">
-						<li>
+						<li data-target='.pensionesService'>
 							Pensiones
 						</li>
-						<li>
+						<li data-target='.segurosService'>
 							Seguros
 						</li>
-						<li>
+						<li data-target='.aforesService'>
 							Afores
 						</li>
-						<li>
+						<li data-target='.cursosService'>
 							Cursos
 						</li>
-						<li>
-							Capacitación
+						<li data-target='.capacitacionesService'>
+							Capacitaciónes
 						</li>
-						<li>
-							Asesoría a empresas
+						<li data-target='.asesoriasService'>
+							Asesorías
 						</li>
 					</ul>
 					<div class="closeButton mobile">x</div>

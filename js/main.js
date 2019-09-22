@@ -4,9 +4,8 @@ document.addEventListener("DOMContentLoaded", () =>
 	document.querySelector('.nav').submenu({closeButton: '.closeButton'});
 	document.querySelector('.aboutSection').slider();
 	setNavScrollBehavior();
+	setScrollListeners();
 	setBodyPadding();
-
-	document.querySelector('footer').scrollIntoView();
 });
 
 window.onresize = () =>
@@ -68,10 +67,17 @@ const clearInputs = () =>
 	}
 }
 
-$.fn.goTo = function() 
+const setScrollListeners = () =>
 {
-    $('html, body').animate({
-        scrollTop: $(this).offset().top + 'px'
-    }, 'low');
-    return this; // for chaining...
+	let listeners = document.querySelectorAll('[data-target]');
+
+	for (let i = 0; i < listeners.length; i ++)
+	{
+		listeners[i].onclick = scrollTo(listeners[i].dataset.target);
+	}
+}
+
+const scrollTo = (target) =>
+{
+	document.querySelector(target).scrollIntoView({block: 'start', behavior: 'smooth'});
 }
