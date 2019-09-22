@@ -5,6 +5,8 @@ document.addEventListener("DOMContentLoaded", () =>
 	document.querySelector('.aboutSection').slider();
 	setNavScrollBehavior();
 	setBodyPadding();
+
+	document.querySelector('footer').scrollIntoView();
 });
 
 window.onresize = () =>
@@ -36,7 +38,7 @@ const toggleActive = selector =>
 	document.querySelector(selector).classList.toggle('active');
 }
 
-function setupInputs()
+const setupInputs = () =>
 {
 	clearInputs();
 	let inputs = document.querySelectorAll("input");
@@ -56,10 +58,20 @@ function setupInputs()
 		);
 	}
 }
-function clearInputs(){
+
+const clearInputs = () =>
+{
 	let inputs = document.querySelectorAll("input");
 	for (let i = 0; i < inputs.length; i ++)
 	{
 		inputs[i].value = "";
 	}
+}
+
+$.fn.goTo = function() 
+{
+    $('html, body').animate({
+        scrollTop: $(this).offset().top + 'px'
+    }, 'low');
+    return this; // for chaining...
 }
