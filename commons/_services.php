@@ -1,4 +1,4 @@
-<section class="services">
+<section class="servicesSection">
 	<h2 class="sectionTitle dark">
 		Nuestros servicios
 	</h2>
@@ -12,7 +12,7 @@
 				Trámite de Pensiones (Ley 1973 y ley actual 1997) IMSS (Cuentas individuales y décimo transitorio) ISSSTE. 
 			</p>
 			<p>
-				Llevamos a nuestro cliente a la consecución de su pensión, guiandolos en el proceso adecuado para un tramite limpio y preciso, determinando en cada caso las opciones y estrategias más viables.
+				Llevamos a nuestro cliente a la consecución de su pensión, guiándolos en el proceso adecuado para un trámite limpio y preciso, determinando en cada caso las opciones y estrategias más viables.
 			</p>
 			<p class="primaryColor bigText">
 				Tipo de pensiones por ramo IMSS:
@@ -153,7 +153,7 @@
 				Automóviles y camionetas:
 			</p>
 			<p>
-				Con esta póliza garantizamos un servicio express al momento de un siniestro, con ajustadores ágiles y profesionales que le brindaran una protección  de excelencia al momento que usted más lo necesita para tranquilidad de sus familias, contamos con una red nacional de talleres y hospitales a su disposición para su tranquilidad y la de su familia, protegiendo así el patrimonio familiar.
+				Con esta póliza garantizamos un servicio express al momento de un siniestro, con ajustadores ágiles y profesionales que le brindaran una protección  de excelencia al momento que usted más lo necesita para tranquilidad de sus familias, contamos con una red nacional de talleres y hospitales a su disposición, protegiendo así el patrimonio familiar.
 
 			</p>
 		</div>
@@ -173,20 +173,20 @@
 		<img src="<?php echo $httpProtocol.$host.$url?>img/servicios/cursos.jpg" alt="Cursos" class="serviceImg">
 		<div class="serviceDescription">
 			<h2 class="serviceTitle">
-				Cursos: Validación en tramite STPS
+				Cursos: Validación en trámite STPS
 			</h2>
 			<p>
 				PROGRAMA DEL CURSO 27 de septiembre del 2019 <br>
 				CURSO <br>
 				Sede León, Gto. <br>
 				Viernes 27 de septiembre del 2019 <br>
-				De 9:2 y de 3 pm a 6 30 Pm <br> <br>
-				Temas <br>
+				De 9:2 y de 3:00pm a 6:30pm <br> <br>
+				Temas: <br>
 				Issste-IMSS <br> 
-				DECIMO transitorio Issste <br> 
-				NOVENO transitorio Issste CASOS PRACTICOS Y MARCO LEGAL <br>
+				DÉCIMO transitorio Issste <br> 
+				NOVENO transitorio Issste CASOS PRÁCTICOS Y MARCO LEGAL <br>
 				Mod 40  IMSS <br>
-				Mod 44 mss 
+				Mod 44 IMSS
 			</p>
 		</div>
 	</div>
@@ -298,7 +298,7 @@
 				Asesorías
 			</h2>
 			<p>
-				Para el sector PUBLICO Y PRIVADO que coticen sus trabajadores al ISSSTE FEDERAL E IMSS 
+				Para el sector PÚBLICO Y PRIVADO que coticen a sus trabajadores al ISSSTE FEDERAL E IMSS 
 			</p>
 		</div>
 	</div>
