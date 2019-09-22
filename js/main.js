@@ -75,7 +75,7 @@ const setScrollListeners = () =>
 	{
 		listeners[i].addEventListener('click', function()
 			{
-				scrollTo(listeners[i].dataset.target)
+				scrollTo(listeners[i].dataset.target);
 			});
 	}
 }
