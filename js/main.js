@@ -70,10 +70,11 @@ const clearInputs = () =>
 const setScrollListeners = () =>
 {
 	let listeners = document.querySelectorAll('[data-target]');
+	console.log(listeners);
 
 	for (let i = 0; i < listeners.length; i ++)
 	{
-		listeners[i].onclick = scrollTo(listeners[i].dataset.target);
+		listeners[i].addEventListener('click', scrollTo(listeners[i].dataset.target));
 	}
 }
 
