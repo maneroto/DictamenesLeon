@@ -1,4 +1,4 @@
-<div class="aboutSection">
+<div class="aboutSection lazy">
 	<div class="sliderItem">
 		<h2 class="aboutTitle">
 			Nuestra misión
