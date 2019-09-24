@@ -142,3 +142,11 @@ function alertAndFocus(toFocus, message)
   document.querySelector(toFocus).focus();
   alert(message);
 }
+
+function regValidation(sentence, reg) { 
+  if (reg.test(sentence) == false) 
+  { 
+    return true; 
+  } 
+  return false;
+}
