@@ -16,7 +16,7 @@
 				});
 			});
        </script>
-	'
+	';
 
 	include('commons/_nav.php');
 	include('commons/_banner.php');
