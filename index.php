@@ -7,10 +7,10 @@
 
 	$js .=
 	'
-		<script src="https://www.google.com/recaptcha/api.js?render=6Lc7uLUUAAAAABMiiwADqDZMTk1jVh0z7yRA4fuI"></script>
+		<script src="https://www.google.com/recaptcha/api.js?render=6LeDD7oUAAAAAMfrfovbCzQkxsLnfzAbLgGgFbEi"></script>
 		<script>
 			grecaptcha.ready(function() {
-				grecaptcha.execute("6Lc7uLUUAAAAABMiiwADqDZMTk1jVh0z7yRA4fuI", {action: "validateMail"}).then(function(token) {
+				grecaptcha.execute("6LeDD7oUAAAAAMfrfovbCzQkxsLnfzAbLgGgFbEi", {action: "validateMail"}).then(function(token) {
 					var recaptchaResponse = document.getElementById("recaptchaResponse");
 					recaptchaResponse.value = token;
 				});
