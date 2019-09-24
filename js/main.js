@@ -122,7 +122,8 @@ function validateMail(event)
       switch (String(data).trim()) 
       {
         case "mailSent":
-          window.location = "https://www.google.com/";
+          alert('Correo enviado exitosamente');
+          //window.location = "https://www.gerpensiones.com/";
           break;
         case "captchaError":
           alert("No se validó el captcha correctamente");
