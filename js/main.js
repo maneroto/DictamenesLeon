@@ -6,7 +6,6 @@ document.addEventListener("DOMContentLoaded", function() {
     document.querySelector(".aboutSection").slider();
     setNavScrollBehavior();
     setScrollListeners();
-    setImageObserver();
     setBodyPadding()
 });
 window.onresize = function() {
