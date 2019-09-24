@@ -18,13 +18,13 @@
 				</div>
 				<select name="serviceType" required>
 					<option value="" selected disabled>Selecciona el tipo de servicio</option>
-					<option value="pension">Pensión</option>
-					<option value="seguro">Seguro</option>
-					<option value="afore">Afore</option>
-					<option value="curso">Curso</option>
-					<option value="capacitacion">Capacitación</option>
-					<option value="asesoria">Asesoría a empresa</option>
-					<option value="otro">Otro (especificar en la descripción del caso)</option>
+					<option value="Pensión">Pensión</option>
+					<option value="Seguro">Seguro</option>
+					<option value="Afore">Afore</option>
+					<option value="Curso">Curso</option>
+					<option value="Capacitación">Capacitación</option>
+					<option value="Asesoría">Asesoría a empresa</option>
+					<option value="Otro">Otro (especificar en la descripción del caso)</option>
 				</select>
 				<textarea placeholder="Describa brevemente su caso" maxlength="200" name='message' required></textarea>
 				<input type="hidden" name="recaptcha_response" id="recaptchaResponse">

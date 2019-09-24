@@ -128,7 +128,6 @@ function validateMail(event)
           alert("No se validó el captcha correctamente");
           break;
         default:
-          console.log(data);
           alert("No se pudo enviar el formulario, por favor intenta nuevamente.");
           window.location.reload();
         break;
