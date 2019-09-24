@@ -28,6 +28,7 @@ function setImageObserver
 				{
 					var image = entry.target;
 					image.classList.remove("lazy");
+					if (image.nodeName == 'IMG') image.src = image.dataset.src;
 					imageObserver.unobserve(image);
 				}
 			});

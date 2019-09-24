@@ -3,7 +3,7 @@
 		Nuestros servicios
 	</h2>
 	<div class="service pensionesService">
-		<img src="<?php echo $httpProtocol.$host.$url?>img/servicios/pensiones.jpg" alt="Pensiones" class="serviceImg">
+		<img data-src="<?php echo $httpProtocol.$host.$url?>img/servicios/pensiones.jpg" alt="Pensiones" class="serviceImg">
 		<div class="serviceDescription">
 			<h2 class="serviceTitle">
 				Pensiones
@@ -138,7 +138,7 @@
 		</div>
 	</div>
 	<div class="service segurosService">
-		<img src="<?php echo $httpProtocol.$host.$url?>img/servicios/seguros.jpg" alt="Seguros" class="serviceImg">
+		<img data-src="<?php echo $httpProtocol.$host.$url?>img/servicios/seguros.jpg" alt="Seguros" class="serviceImg">
 		<div class="serviceDescription">
 			<h2 class="serviceTitle">
 				Seguros
@@ -159,7 +159,7 @@
 		</div>
 	</div>
 	<div class="service aforesService">
-		<img src="<?php echo $httpProtocol.$host.$url?>img/servicios/afores.jpg" alt="AFORES" class="serviceImg">
+		<img data-src="<?php echo $httpProtocol.$host.$url?>img/servicios/afores.jpg" alt="AFORES" class="serviceImg">
 		<div class="serviceDescription">
 			<h2 class="serviceTitle">
 				Afores
@@ -170,7 +170,7 @@
 		</div>
 	</div>
 	<div class="service cursosService">
-		<img src="<?php echo $httpProtocol.$host.$url?>img/servicios/cursos.jpg" alt="Cursos" class="serviceImg">
+		<img data-src="<?php echo $httpProtocol.$host.$url?>img/servicios/cursos.jpg" alt="Cursos" class="serviceImg">
 		<div class="serviceDescription">
 			<h2 class="serviceTitle">
 				Cursos: Validación en trámite STPS
@@ -191,7 +191,7 @@
 		</div>
 	</div>
 	<div class="service capacitacionesService">
-		<img src="<?php echo $httpProtocol.$host.$url?>img/servicios/capacitacion.jpg" alt="Capacitación" class="serviceImg">
+		<img data-src="<?php echo $httpProtocol.$host.$url?>img/servicios/capacitacion.jpg" alt="Capacitación" class="serviceImg">
 		<div class="serviceDescription">
 			<h2 class="serviceTitle">
 				Capacitaciones
@@ -292,7 +292,7 @@
 		</div>
 	</div>
 	<div class="service asesoriasService">
-		<img src="<?php echo $httpProtocol.$host.$url?>img/servicios/asesoria.jpg" alt="Asesoría a empresas" class="serviceImg">
+		<img data-src="<?php echo $httpProtocol.$host.$url?>img/servicios/asesoria.jpg" alt="Asesoría a empresas" class="serviceImg">
 		<div class="serviceDescription">
 			<h2 class="serviceTitle">
 				Asesorías
