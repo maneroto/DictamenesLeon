@@ -26,7 +26,7 @@ if ("IntersectionObserver" in window)
 			{
 				var image = entry.target;
 				image.classList.remove("lazy");
-				if (image.nodeName == 'IMG') image.src = image.dataset.src;
+				if (image.nodeName == 'IMG') {image.src = image.dataset.src; console.log(image)}
 				imageObserver.unobserve(image);
 			}
 		});
