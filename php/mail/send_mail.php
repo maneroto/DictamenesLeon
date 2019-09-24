@@ -32,7 +32,7 @@
 		//$mail->AddAddress("contacto@gerpensiones.com");
 		$mail->Subject = $subject;
 		$mail->Body = $content; 
-		$mail->MsgHTML($contenido);
+		$mail->MsgHTML($content);
 		$mail->CharSet = 'UTF-8';
 
 		if($mail->Send()){
