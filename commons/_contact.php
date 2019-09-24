@@ -7,7 +7,7 @@
 			<h3 class="sectionTitle dark normalText">
 				Evaluamos su caso de manera gratuita.
 			</h3>
-			<form class="contactForm">
+			<form class="contactForm" method="post" onsubmit="return validateMail(event)">
 				<div class="formField">
 					<label for="name">Nombre:</label>
 					<input type="text" name="name" id="name" required>
@@ -26,7 +26,8 @@
 					<option value="asesoria">Asesoría a empresa</option>
 					<option value="otro">Otro (especificar en la descripción del caso)</option>
 				</select>
-				<textarea placeholder="Describa brevemente su caso" maxlength="200" required></textarea>
+				<textarea placeholder="Describa brevemente su caso" maxlength="200" name='message' required></textarea>
+				<input type="hidden" name="recaptcha_response" id="recaptchaResponse">
 				<button type="submit" class="btn dark xCenter">Enviar</button>
 			</form>
 		</div>
