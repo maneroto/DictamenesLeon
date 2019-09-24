@@ -17,7 +17,7 @@
 		$subject = "Formulario de Contacto";
 		$content = "";
 
-		$content .= "<p style='color: #ff3b3f; font-family: Arial;'>La siguiente persona lleno el formulario de Contacto</p>";
+		$content .= "<p style='color: #ff3b3f; font-family: Arial;'>La siguiente persona llen&oaccute; el formulario de Contacto:</p>";
 		$content .= "<p style='color: #333333; font-family: Arial;'>Nombre: ".$name."</p>";
 		$content .= "<p style='color: #333333; font-family: Arial;'>Correo eletrónico: ".$email."</p>";
 		$content .= "<p style='color: #333333; font-family: Arial;'>Teléfono: ".$serviceType."</p>";
