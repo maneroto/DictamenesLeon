@@ -13,7 +13,7 @@ window.onresize = function() {
     setBodyPadding()
 };
 
-function setImageObserver
+function setImageObserver()
 {
 	document.addEventListener("DOMContentLoaded", function() {
 	var lazyloadImages;    
