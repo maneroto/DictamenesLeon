@@ -15,6 +15,7 @@
     $js = 
     '
     	<script src="'.$httpProtocol.$host.$url.'js/jquery-3.4.1.min.js"></script>
+    	<script src="'.$httpProtocol.$host.$url.'js/imageObserver.min.js"></script>
     	<script src="'.$httpProtocol.$host.$url.'js/submenu.min.js"></script>
     	<script src="'.$httpProtocol.$host.$url.'js/slider.js"></script>
     	<script src="'.$httpProtocol.$host.$url.'js/main.js"></script>
