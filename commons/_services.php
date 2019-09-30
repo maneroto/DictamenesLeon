@@ -9,7 +9,10 @@
 				Pensiones
 			</h2>
 			<p>
-				Trámite de Pensiones (Ley 1973 y ley actual 1997) IMSS (Cuentas individuales y décimo transitorio) ISSSTE. 
+				IMSS: Trámite de Pensiones (Ley 1973 y ley actual 1997).
+			</p>
+			<p>
+				ISSSTE: (Cuentas individuales y décimo transitorio). 
 			</p>
 			<p>
 				Llevamos a nuestro cliente a la consecución de su pensión, guiándolos en el proceso adecuado para un trámite limpio y preciso, determinando en cada caso las opciones y estrategias más viables.
