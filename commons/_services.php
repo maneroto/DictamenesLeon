@@ -168,28 +168,14 @@
 				Afores
 			</h2>
 			<p>
-				CAPACITACIONES Y FOROS CON TEMAS DE ACTUALIDAD PARA ASESORES DE AFORE Y CLIENTES. INCLUYENDO ASPECTOS LEGALES Y COMERCIALES DE LA SEGURIDAD SOCIAL 
+				Otorgamos servicios a <span class="primaryColor">GRUPOS FINANCIEROS</span> ramo de <span class="primaryColor">AFORE</span>, con la finalidad de brindarles capacitacion en las nuevas disposiciones y circulares que emita la CONSAR, actualizando al promotor en los cambios de las legislaciones vigentes, establecidas con el nuevo gobierno que inició en 2018.
 			</p>
-		</div>
-	</div>
-	<div class="service cursosService">
-		<img data-src="<?php echo $httpProtocol.$host.$url?>img/servicios/cursos.jpg" alt="Cursos" class="serviceImg lazy">
-		<div class="serviceDescription">
-			<h2 class="serviceTitle">
-				Cursos: Validación en trámite STPS
-			</h2>
 			<p>
-				PROGRAMA DEL CURSO 27 de septiembre del 2019 <br>
-				CURSO <br>
-				Sede León, Gto. <br>
-				Viernes 27 de septiembre del 2019 <br>
-				De 9:2 y de 3:00pm a 6:30pm <br> <br>
-				Temas: <br>
-				Issste-IMSS <br> 
-				DÉCIMO transitorio Issste <br> 
-				NOVENO transitorio Issste CASOS PRÁCTICOS Y MARCO LEGAL <br>
-				Mod 40  IMSS <br>
-				Mod 44 IMSS
+				Brindamos a las empresas, personal administrativo y promotores, los elementos y herramientas necesarios a fin de profundizar en los métodos de comercialización de las diferentes AFORE del mercado mexicano, atendiendo siempre a la normatividad vigentes en traspasos, registros y revalidaciones de las cuentas individuales, sean de trancision o cuentas  a partir de julio de 1997.
+				También dirigido a empresas que quieran beneficiar a sus trabajadores dándoles la oportunidad de conocer de una manera conceptual el beneficio de saber administrar y como elegir las AFORE para su futuro:
+			</p>
+			<p>
+				El objetivo de este curso es que los usuarios conozcan la utilidad del <span class="primaryColor">Sistema de Ahorro para el Retiro (SAR)</span>, conozcan cómo funciona su cuenta de ahorro para el retiro y cómo manejarla, cuáles son sus ventajas, y adquieran herramientas conceptuales que les permitan forjar hábitos de cultura previsional como el ahorro y la vigilancia de sus cuentas, además de que hacer en caso de requerir una pensión. 
 			</p>
 		</div>
 	</div>
@@ -197,10 +183,10 @@
 		<img data-src="<?php echo $httpProtocol.$host.$url?>img/servicios/capacitacion.jpg" alt="Capacitación" class="serviceImg lazy">
 		<div class="serviceDescription">
 			<h2 class="serviceTitle">
-				Capacitaciones
+				Cursos y capacitaciones
 			</h2>
 			<p>
-				Para áreas de las empresas de Recursos Humanos y Personal en general.
+				Ofrecemos cursos presenciales, dirigidos a personal de empresas en temas específicos de seguridad social, como planes de <span class="primaryColor">PREVISIÓN SOCIAL, AFORE, MODALIDAD 40, INFONAVIT</span>, etc. Con el objetivo de desarrollar habilidades, adquirir conocimientos y programas de capacitación laboral, atendiendo siempre, a la reglamentación actual de las diferentes leyes qué  confluyen en el ambiente laboral y empresarial. Dirigido a areas de Recursos Humanos, Contadores Públicos, Personal de confianza y trabajadores en general.
 			</p>
 			<div class="row">
 				<div class="col">
