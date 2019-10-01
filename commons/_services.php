@@ -280,6 +280,9 @@
 					Cálculos con cifras de los participantes
 				</li>
 			</ul>
+			<p>
+				Cuenta HSBC 4910 8970 6358 0179 favor de enviar copia del pago a contacto@gerpensiones.com y tu ejecutivoas@gmail.com  y nombre del participante 
+			</p>
 		</div>
 	</div>
 	<div class="service asesoriasService">
