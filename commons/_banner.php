@@ -24,12 +24,6 @@
 				Afores
 			</span>
 		</div>
-		<div class="offer" data-target='.cursosService'>
-			<i class="fas fa-graduation-cap"></i>
-			<span>
-				Cursos
-			</span>
-		</div>
 		<div class="offer" data-target='.capacitacionesService'>
 			<i class="fas fa-chalkboard-teacher"></i>
 			<span>

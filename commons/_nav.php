@@ -21,11 +21,8 @@
 						<li data-target='.aforesService'>
 							Afores
 						</li>
-						<li data-target='.cursosService'>
-							Cursos
-						</li>
 						<li data-target='.capacitacionesService'>
-							Capacitaciónes
+							Cursos y capacitaciones
 						</li>
 						<li data-target='.asesoriasService'>
 							Asesorías

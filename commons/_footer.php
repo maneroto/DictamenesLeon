@@ -21,11 +21,8 @@
 								<li data-target='.aforesService'>
 									<i class="fas fa-chevron-right"></i> Afores
 								</li>
-								<li data-target='.cursosService'>
-									<i class="fas fa-chevron-right"></i> Cursos
-								</li>
 								<li data-target='.capacitacionesService'>
-									<i class="fas fa-chevron-right"></i> Capacitación
+									<i class="fas fa-chevron-right"></i> Cursos y capacitaciones
 								</li>
 								<li data-target='.asesoriasService'>
 									<i class="fas fa-chevron-right"></i> Asesoría a empresas
