@@ -51,12 +51,12 @@
 									</a>
 								</li>
 								<li>
-									<a href="mailto:contacto@gerpensiones.com">
+									<a href="mailto:contacto@gerpensiones.com?Subject=Hola!,%20Gerpensiones">
 										<i class="fas fa-envelope"></i> Mail: contacto@gerpensiones.com
 									</a>
 								</li>
 								<li>
-									<a href="mailto:tuejecutivoas@gmail.com">
+									<a href="mailto:tuejecutivoas@gmail.com?Subject=Hola!,%20Gerpensiones">
 										<i class="fas fa-envelope"></i> Mail secundario: tuejecutivoas@gmail.com
 									</a>
 								</li>
@@ -91,7 +91,7 @@
 						NUMERO DE CONSAR 1907080442
 					</p>
 					<button class="btn dark smallText">
-						<a href="mailto:contacto@gerpensiones.com">
+						<a href="mailto:contacto@gerpensiones.com?Subject=Hola!,%20Gerpensiones">
 							Envíanos un correo
 						</a>
 					</button>
