@@ -70,7 +70,7 @@
 	<link rel="alternate" hreflang="x-default" href="<?php echo $httpProtocol.$host.$url.$thisPage; ?>" />
 
 	<!-- Font Awesome -->
-	<link rel="preload" href="<?php echo $httpProtocol.$host.$url?>css/webfonts/fa-brands-400.woff2" as="font">
+	<link rel="preload" href="<?php echo $httpProtocol.$host.$url?>css/webfonts/fa-solid-900.woff2" as="font">
 	<link rel="stylesheet" type="text/css" href="<?php echo $httpProtocol.$host.$url?>css/Fontawesome/fontawesome.min.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo $httpProtocol.$host.$url?>css/Fontawesome/brands.min.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo $httpProtocol.$host.$url?>css/Fontawesome/solid.min.css">
