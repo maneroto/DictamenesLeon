@@ -3,6 +3,6 @@
 						http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
         <loc>https://www.gerpensiones.com</loc>
-        <priority>0.1</priority>
+        <priority>1.0</priority>
     </url>
 </urlset>
