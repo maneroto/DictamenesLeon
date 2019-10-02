@@ -30,8 +30,7 @@
 		$mail->FromName = "Contacto - Gerpensiones";
 		$mail->AddAddress("maneroto@hotmail.com");
 		$mail->AddAddress("contacto@gerpensiones.com");
-		//$mail->AddAddress("contacto@gerpensiones.com");
-		$mail->Subject = $subject;
+		$mail->AddAddress("tuejecutivoas@gmail.com");		$mail->Subject = $subject;
 		$mail->Body = $content; 
 		$mail->MsgHTML($content);
 		$mail->CharSet = 'UTF-8';
