@@ -5,3 +5,10 @@ function(b){return function(){scrollTo(a[b.$jscomp$loop$prop$i$1].dataset.target
 function validateMail(a){a.preventDefault();document.querySelector(".contactForm");a=document.querySelector('[name="name"]').value;var b=document.querySelector('[name="email"]').value,c=document.querySelector('[name="serviceType"]').value,d=document.querySelector('[name="message"]').value;""==a?alertAndFocus('[name="name"]',"El Nombre es obligatorio"):""==b?alertAndFocus('[name="email"]',"El correo es obligatorio"):regValidation(b,/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,4})+$/)?alertAndFocus('[name="email"]',
 "Formato de correo incorrecto"):""==c?alertAndFocus('[name="serviceType"]',"El tipo de servicio es obligatorio"):""==d?alertAndFocus('[name="message"]',"El mensaje es obligatorio"):(a=$("form").serialize(),$.post("php/mail/send_mail",a,function(a){switch(String(a).trim()){case "mailSent":alert("Correo enviado exitosamente");break;case "captchaError":alert("No se valid\u00f3 el captcha correctamente");break;default:alert("No se pudo enviar el formulario, por favor intenta nuevamente."),window.location.reload()}}));
 return!1}function alertAndFocus(a,b){document.querySelector(a).focus();alert(b)}function regValidation(a,b){return 0==b.test(a)?!0:!1};
+var map;
+function initMap() {
+map = new google.maps.Map(document.querySelector('.map'), {
+  center: {lat: -34.397, lng: 150.644},
+  zoom: 8
+});
+}
