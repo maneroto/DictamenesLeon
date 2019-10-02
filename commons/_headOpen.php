@@ -19,7 +19,7 @@
     	<script src="'.$httpProtocol.$host.$url.'js/submenu.min.js"></script>
     	<script src="'.$httpProtocol.$host.$url.'js/slider.js"></script>
     	<script src="'.$httpProtocol.$host.$url.'js/main.js"></script>
-    	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC2J7Bewb9i78Q9trq_TFME_2ZRwsMvaVY&callback=initMap"async defer></script>
+    	  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC2J7Bewb9i78Q9trq_TFME_2ZRwsMvaVY&callback=initMap" type="text/javascript"></script>
     ';
 ?>
 <html lang="es" prefix="og: http://ogp.me/ns#">
