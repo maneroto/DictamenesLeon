@@ -77,6 +77,9 @@
 						Acerca de
 					</p>
 					<p>
+						<?php echo $description;?>
+					</p>
+					<p>
 						RFC CAVG 681218IR6 <br>
 						NUMERO DE CONSAR 1907080442
 					</p>
