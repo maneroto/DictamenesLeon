@@ -46,15 +46,19 @@
 							Redes sociales
 							<ul>
 								<li>
-									<a href="">
+									<a href="https://wa.me/524778049612">
 										<i class="fab fa-whatsapp"></i> Whatsapp: 477 804 9612
 									</a>
 								</li>
 								<li>
-									<i class="fas fa-envelope"></i> Mail: contacto@gerpensiones.com
+									<a href="mailto:contacto@gerpensiones.com">
+										<i class="fas fa-envelope"></i> Mail: contacto@gerpensiones.com
+									</a>
 								</li>
 								<li>
-									<i class="fas fa-envelope"></i> Mail secundario: tuejecutivoas@gmail.com
+									<a href="mailto:tuejecutivoas@gmail.com">
+										<i class="fas fa-envelope"></i> Mail secundario: tuejecutivoas@gmail.com
+									</a>
 								</li>
 							</ul>
 						</li>
@@ -83,7 +87,9 @@
 						NUMERO DE CONSAR 1907080442
 					</p>
 					<button class="btn dark smallText">
-						Envíanos un correo
+						<a href="mailto:contacto@gerpensiones.com">
+							Envíanos un correo
+						</a>
 					</button>
 				</div>
 			</div>
