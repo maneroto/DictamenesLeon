@@ -46,7 +46,7 @@
 							Redes sociales
 							<ul>
 								<li>
-									<a href="https://wa.me/524778049612">
+									<a href="https://wa.me/524778049612" target="_blank">
 										<i class="fab fa-whatsapp"></i> Whatsapp: 477 804 9612
 									</a>
 								</li>
@@ -66,10 +66,14 @@
 							Teléfonos
 							<ul>
 								<li>
-									<i class="fas fa-phone"></i> Móvil: 477 804 9612
+									<a href="tel:+524778049612">
+										<i class="fas fa-phone"></i> Móvil: 477 804 9612
+									</a>
 								</li>
 								<li>
-									<i class="fas fa-building"></i> Oficina: 477 804 9614
+									<a href="tel:+524778049614">
+										<i class="fas fa-building"></i> Oficina: 477 804 9614
+									</a>
 								</li>
 							</ul>
 						</li>
