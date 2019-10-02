@@ -281,7 +281,7 @@
 				</li>
 			</ul>
 			<p class="primaryColor smallText">
-				Cuenta HSBC: 4910 8970 6358 0179. Favor de enviar copia del pago a contacto@gerpensiones.com y a tuejecutivoas@gmail.com, junto con el nombre del participante.
+				Para poder participar en los cursos y capacitaciones que ofrecemos pedimos de favor que se deposite el monto de inversión a la cuenta HSBC: 4910 8970 6358 0179. Favor de enviar la copia del pago a contacto@gerpensiones.com y a tuejecutivoas@gmail.com, junto con el nombre del participante.
 			</p>
 		</div>
 	</div>
