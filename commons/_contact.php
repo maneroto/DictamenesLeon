@@ -35,7 +35,7 @@
 			<h3 class="sectionTitle normalText">
 				Puede visitarnos en nuestras oficinas.
 			</h3>
-			<a href="https://www.google.com/maps/place/Blvd.+Adolfo+L%C3%B3pez+Mateos,+Le%C3%B3n,+Gto./@21.1173758,-101.6609788,17z/data=!3m1!4b1!4m5!3m4!1s0x842bbe5ab16730e1:0xce8c2e1aafa63369!8m2!3d21.1173758!4d-101.6587901">
+			<a href="https://www.google.com/maps/place/Blvd.+Adolfo+L%C3%B3pez+Mateos,+Le%C3%B3n,+Gto./@21.1173758,-101.6609788,17z/data=!3m1!4b1!4m5!3m4!1s0x842bbe5ab16730e1:0xce8c2e1aafa63369!8m2!3d21.1173758!4d-101.6587901" target="_blank">
 				<img class="lazy" data-src="<?php echo $httpProtocol.$host.$url?>img/contactMap.png" alt='Oficina en guanajuato'></img>
 			</a>
 		</div>
