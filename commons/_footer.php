@@ -46,10 +46,9 @@
 							Redes sociales
 							<ul>
 								<li>
-									<i class="fab fa-facebook"></i> Facebook
-								</li>
-								<li>
-									<i class="fab fa-whatsapp"></i> Whatsapp: 477 804 9612
+									<a href="">
+										<i class="fab fa-whatsapp"></i> Whatsapp: 477 804 9612
+									</a>
 								</li>
 								<li>
 									<i class="fas fa-envelope"></i> Mail: contacto@gerpensiones.com
