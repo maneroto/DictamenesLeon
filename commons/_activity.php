@@ -13,6 +13,9 @@
 			</div>
 		</div>
 		<div class="back">
+			<div class="tag">
+				curso
+			</div>
 			<div class="title">
 				Cómo mejorar tu pensión con inversión.
 			</div>
@@ -37,5 +40,5 @@
 			</div>
 		</div>
 	</div>
-	
+
 </div>
