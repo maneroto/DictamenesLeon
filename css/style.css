@@ -580,7 +580,7 @@ body {
 }
 .activity .back
 {
-	background: white;
+	background: var(--accentColor);
 	transform: perspective(600px) rotateY(180deg);
 }
 .activity:hover .front
