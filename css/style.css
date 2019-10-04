@@ -566,10 +566,8 @@ body {
 	backface-visibility: hidden;
 	position: absolute;
 	transition: transform 0.6s linear;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	border-radius: 10px;
+	padding: 3% 5%;
 }
 .activity .front
 {
