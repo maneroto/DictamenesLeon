@@ -569,6 +569,12 @@ body {
 	border-radius: 10px;
 	padding: 15% 5% 3%;
 }
+.activity.info .front
+{
+	background-color: white;
+	border: 2px solid var(--accentColor);
+	color: var(--secondaryColor);
+}
 .activity .front
 {
 	background-color: var(--primaryColor);
@@ -583,6 +589,12 @@ body {
 						 'd d d';
 	grid-template-columns: repeat(3, 1fr);
 	grid-auto-rows: 1fr;
+}
+.activity.info .back
+{
+	background-color: var(--secondaryColor);
+	border: 2px solid var(--secondaryColor);
+	color: white;
 }
 .activity .back
 {

@@ -1,7 +1,25 @@
 <div class="activityContainer">
-	<h2 class="sectionTitle boldText">
-		Únete a nuestras actividades
-	</h2>
+	<div class="activity info">
+		<div class="front">
+			<div class="title">
+				Sé parte de nuestras actividades
+			</div>
+			<i class="fas fa-hand-point-up icon"></i>
+			<div class="date">
+				!No te pierdas de estas grandes oportunidades para aprender!
+			</div>
+		</div>
+		<div class="back">
+			<div class="title">
+				Así puedes ser parte de nuestras actividades:
+			</div>
+			<div class="description">
+				<p>
+					Para poder acceder a las actividades que ofrecemos, pedimos de favor que se deposite el monto de inversión a la cuenta HSBC: 4910 8970 6358 0179. Favor de enviar la copia del pago a contacto@gerpensiones.com y a tuejecutivoas@gmail.com, junto con el nombre del participante.
+				</p>
+			</div>
+		</div>
+	</div>
 	<div class="activity">
 		<div class="front">
 			<div class="tag">
