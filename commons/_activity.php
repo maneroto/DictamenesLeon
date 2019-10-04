@@ -2,16 +2,16 @@
 	<div class="activity info">
 		<div class="front">
 			<div class="title">
-				Sé parte de nuestras actividades
+				Sea parte de nuestras actividades
 			</div>
 			<i class="fas fa-hand-point-up icon"></i>
 			<div class="date">
-				!No te pierdas de estas grandes oportunidades para aprender!
+				!No se pierda de estas grandes oportunidades para aprender!
 			</div>
 		</div>
 		<div class="back">
 			<div class="title">
-				Así puedes ser parte de nuestras actividades:
+				Así puede ser parte de nuestras actividades:
 			</div>
 			<div class="description">
 				<ul>
@@ -19,10 +19,10 @@
 						Deposite el monto de inversión a la cuenta HSBC: 4910 8970 6358 0179.
 					</li>
 					<li>
-						Envía copia del pago a los correos de contacto, anexa el nombre del participante	
+						Envíe copia del pago a los correos de contacto, anexe el nombre del participante	
 					</li>
 					<li>
-						¡Asiste!
+						¡Asista!
 					</li>
 				</ul>
 			</div>

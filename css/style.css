@@ -545,7 +545,7 @@ body {
 {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, 300px);
-	height: 50vh;
+	height: 55vh;
 	grid-gap: 10px;
 	width: 100%;
 	padding: 3% 5%;
