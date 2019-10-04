@@ -545,7 +545,8 @@ body {
 {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, 300px);
-	height: 55vh;
+	min-height: 55vh;
+	grid-auto-rows: 50vh;
 	grid-gap: 10px;
 	width: 100%;
 	padding: 3% 5%;
