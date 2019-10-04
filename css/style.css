@@ -589,6 +589,16 @@ body {
 {
 	transform: perspective(600px) rotateY(0deg);
 }
+.activity .tag
+{
+	position: absolute;
+	top: 5%;
+	right: 5%;
+	text-transform: uppercase;
+	padding: 5px 10px;
+	background-color: var(--secondaryColor)
+	border-radius: 10px;
+}
 
 .footer {
     width: 100%;
