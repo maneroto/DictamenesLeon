@@ -596,7 +596,7 @@ body {
 	right: 5%;
 	text-transform: uppercase;
 	padding: 5px 10px;
-	background-color: var(--secondaryColor)
+	background-color: var(--secondaryColor);
 	border-radius: 10px;
 }
 
