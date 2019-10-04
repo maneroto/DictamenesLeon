@@ -567,7 +567,7 @@ body {
 	position: absolute;
 	transition: transform 0.6s linear;
 	border-radius: 10px;
-	padding: 6% 5% 2;
+	padding: 6% 5% 3%;
 }
 .activity .front
 {
@@ -591,6 +591,7 @@ body {
 }
 .activity .tag
 {
+	color: white;
 	position: absolute;
 	top: 2%;
 	right: 2%;
