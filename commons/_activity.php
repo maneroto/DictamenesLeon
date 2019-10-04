@@ -9,7 +9,7 @@
 				Cómo mejorar tu pensión con inversión.
 			</div>
 			<div class="date">
-				viernes de 10:00 am a 2:00 pm 
+				04 de octubre del 2019, de 10:00am a 2:00pm 
 			</div>
 		</div>
 		<div class="back">
@@ -22,19 +22,19 @@
 			<div class="description">
 				<ul>
 					<li>
-						modalidad 40 IMSS
+						Modalidad 40 IMSS
 					</li>
 					<li>
-						fundamentos 
+						Fundamentos 
 					</li>
 					<li>
-						procedimientos 
+						Procedimientos 
 					</li>
 					<li>
-						casos individuales de los participantes 
+						Casos individuales de los participantes 
 					</li>
 					<li>
-						proceso de trámite y cobro 
+						Proceso de trámite y cobro 
 					</li>
 				</ul>
 			</div>
