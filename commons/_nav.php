@@ -34,6 +34,9 @@
 			<li data-target='.otherServicesSection'>
 				Otros servicios
 			</li>
+			<li data-target='.activityContainer'>
+				Nuestra agenda
+			</li>
 			<li data-target='.contactSection'>
 				Contacto
 			</li>

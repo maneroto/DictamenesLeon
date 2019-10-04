@@ -22,9 +22,9 @@
 	include('commons/_nav.php');
 	include('commons/_banner.php');
 	include('commons/_about.php');
-	include 'commons/_activity.php';
 	include('commons/_services.php');
 	include 'commons/_otherServices.php';
+	include 'commons/_activity.php';
 	include('commons/_contact.php');
 	include 'commons/_footer.php';
 ?>

@@ -1,5 +1,7 @@
 <div class="activityContainer">
-
+	<h2 class="sectionTitle boldText">
+		Únete a nuestras actividades
+	</h2>
 	<div class="activity">
 		<div class="front">
 			<div class="tag">
