@@ -544,11 +544,13 @@ body {
 .activityContainer
 {
 	display: grid;
-	grid-template-columns: repeat(auto-fill, 300px);
-	height: 45vh;
+	grid-template-columns: repeat(auto-fit, 300px);
+	height: 50vh;
 	grid-gap: 10px;
 	width: 100%;
 	padding: 3% 5%;
+	justify-content: space-around;
+	align-items: center;
 }
 .activity
 {
@@ -567,6 +569,12 @@ body {
 }
 .activity .front
 {
+	background-color: var(--primaryColor);
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
 	transform: perspective(600px) rotateY(0deg);
 }
 .activity .back
