@@ -8,7 +8,7 @@
 			<div class="title">
 				Cómo mejorar tu pensión con inversión.
 			</div>
-			<i class="far fa-hand-point-up icon"></i>
+			<i class="fas fa-hand-point-up icon"></i>
 			<div class="date">
 				04 de octubre del 2019, de 10:00am a 2:00pm 
 			</div>
