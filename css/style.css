@@ -587,6 +587,14 @@ body {
 {
 	background: var(--accentColor);
 	transform: perspective(600px) rotateY(180deg);
+	display: grid;
+	grid-template-areas: 't t'
+						 '. .'
+						 'd d'
+						 'd d'
+						 'd d';
+	grid-template-columns: 1fr;
+	grid-auto-rows: 1fr;
 }
 .activity:hover .front
 {
@@ -606,6 +614,14 @@ body {
 	padding: 5px 10px;
 	background-color: var(--secondaryColor);
 	border-radius: 10px;
+}
+.activity .back .title
+{
+	font-size: var(--text-size);
+}
+.activity .description
+{
+	grid-area: d;
 }
 .activity .title
 {
