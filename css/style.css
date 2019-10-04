@@ -594,7 +594,7 @@ body {
 						 'd d'
 						 'd d'
 						 'd d';
-	grid-template-columns: 1fr;
+	grid-template-columns: repeat(auto-fit, 1fr);
 	grid-auto-rows: 1fr;
 }
 .activity:hover .front
