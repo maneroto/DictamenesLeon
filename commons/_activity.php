@@ -14,9 +14,17 @@
 				Así puedes ser parte de nuestras actividades:
 			</div>
 			<div class="description">
-				<p>
-					Para poder acceder a las actividades que ofrecemos, pedimos de favor que se deposite el monto de inversión a la cuenta HSBC: 4910 8970 6358 0179. Favor de enviar la copia del pago a contacto@gerpensiones.com y a tuejecutivoas@gmail.com, junto con el nombre del participante.
-				</p>
+				<ul>
+					<li>
+						Deposite el monto de inversión a la cuenta HSBC: 4910 8970 6358 0179.
+					</li>
+					<li>
+						Envía copia del pago a los correos de contacto, anexa el nombre del participante	
+					</li>
+					<li>
+						¡Asiste!
+					</li>
+				</ul>
 			</div>
 		</div>
 	</div>
