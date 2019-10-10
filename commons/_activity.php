@@ -28,7 +28,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="activity">
+	<div class="activity other">
 		<div class="front">
 			<div class="tag">
 				curso
@@ -72,7 +72,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="activity other">
+	<div class="activity">
 		<div class="front">
 			<div class="tag">
 				curso
