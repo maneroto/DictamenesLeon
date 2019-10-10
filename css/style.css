@@ -618,7 +618,7 @@ body {
 {
 	transform: perspective(600px) rotateY(0deg);
 }
-.activity .tag
+.activity .tag, .activity .price
 {
 	color: white;
 	position: absolute;
@@ -628,6 +628,12 @@ body {
 	padding: 5px 10px;
 	background-color: var(--secondaryColor);
 	border-radius: 10px;
+}
+.activity .price
+{
+    right: initial;
+    left: 2%;
+    background-color: var(--orange);
 }
 .activity .back .title
 {
