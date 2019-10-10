@@ -33,6 +33,9 @@
 			<div class="tag">
 				curso
 			</div>
+			<div class="price">
+				<i class="fas fa-dollar-sign"></i> 1500
+			</div>
 			<div class="title">
 				Cómo mejorar tu pensión con inversión.
 			</div>
@@ -44,9 +47,6 @@
 		<div class="back">
 			<div class="tag">
 				curso
-			</div>
-			<div class="price">
-				<i class="fas fa-dollar-sign"></i> 1750
 			</div>
 			<div class="title">
 				Cómo mejorar tu pensión con inversión.
