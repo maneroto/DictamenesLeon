@@ -19,7 +19,7 @@
 						Deposite el monto de inversión a la cuenta HSBC: 4910 8970 6358 0179.
 					</li>
 					<li>
-						Envíe copia del pago a los correos de contacto, anexe el nombre del participante	
+						Envíe copia del pago a los correos de contacto y WhatsApp, anexe el nombre del participante	
 					</li>
 					<li>
 						¡Asista!
@@ -34,14 +34,16 @@
 				curso
 			</div>
 			<div class="price">
-				<i class="fas fa-dollar-sign"></i> 1500
+				<i class="fas fa-dollar-sign"></i> Gratuito
 			</div>
 			<div class="title">
-				Cómo mejorar tu pensión con inversión.
+				¿Eres trabajador activo ante el IMSS?, ¿Cotizaste por lo menos 10 años con un patrón?.
+				Este curso es para tí, amigo trabajador y para el beneficio de tu familia
 			</div>
 			<i class="fas fa-hand-point-up icon"></i>
 			<div class="date">
-				04 de octubre del 2019, de 10:00am a 2:00pm 
+				17 de enero del 2020, de 10:00am a 12:30pm. Yucatán<br>
+				17 de enero del 2020, de 15:30pm a 17:30pm. Yucatán
 			</div>
 		</div>
 		<div class="back">
@@ -54,67 +56,16 @@
 			<div class="description">
 				<ul>
 					<li>
-						Modalidad 40 IMSS
+						Modalidad 40 (continuación voluntaria en el régimen obligado)
 					</li>
 					<li>
-						Fundamentos 
-					</li>
-					<li>
-						Procedimientos 
-					</li>
-					<li>
-						Casos individuales de los participantes 
-					</li>
-					<li>
-						Proceso de trámite y cobro 
+						Análisis indivudual de cada participante
 					</li>
 				</ul>
+				<p>
+					Canacintra, Yucatán. Salón Bepensa, calle 30 x7 y 7A #151, Colonia García Gineres, Mérido, Yucatán.
+				</p>
 			</div>
 		</div>
 	</div>
-	<div class="activity">
-		<div class="front">
-			<div class="tag">
-				curso
-			</div>
-			<div class="price">
-				<i class="fas fa-dollar-sign"></i> 1750
-			</div>
-			<div class="title">
-				Cómo mejorar tu pensión con inversión.
-			</div>
-			<i class="fas fa-hand-point-up icon"></i>
-			<div class="date">
-				26 de octubre del 2019, de 10:00am a 2:00pm. Yucatán.
-			</div>
-		</div>
-		<div class="back">
-			<div class="tag">
-				curso
-			</div>
-			<div class="title">
-				Cómo mejorar tu pensión con inversión.
-			</div>
-			<div class="description">
-				<ul>
-					<li>
-						Modalidad 40 IMSS
-					</li>
-					<li>
-						Fundamentos 
-					</li>
-					<li>
-						Procedimientos 
-					</li>
-					<li>
-						Casos individuales de los participantes 
-					</li>
-					<li>
-						Proceso de trámite y cobro 
-					</li>
-				</ul>
-			</div>
-		</div>
-	</div>
-
 </div>
