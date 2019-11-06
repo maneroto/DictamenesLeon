@@ -2,7 +2,7 @@
 	<div class="activity info">
 		<div class="front">
 			<div class="title">
-				Sea parte de nuestras actividades
+				Así puede ser parte de nuestras actividades:
 			</div>
 			<i class="fas fa-hand-point-up icon"></i>
 			<div class="date">
@@ -11,7 +11,7 @@
 		</div>
 		<div class="back">
 			<div class="title">
-				Así puede ser parte de nuestras actividades:
+				Sea parte de nuestras actividades
 			</div>
 			<div class="description">
 				<ul>
