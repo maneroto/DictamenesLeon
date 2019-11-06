@@ -670,6 +670,11 @@ body {
 .activity .description
 {
 	grid-area: d;
+    overflow: auto;
+}
+.activity .description::-webkit-scrollbar
+{
+    width: 0px;
 }
 
 .footer {
