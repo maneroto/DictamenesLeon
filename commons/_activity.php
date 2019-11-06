@@ -19,7 +19,10 @@
 						Deposite el monto de inversión a la cuenta HSBC: 4910 8970 6358 0179.
 					</li>
 					<li>
-						Envíe copia del pago a los correos de contacto y WhatsApp, anexe el nombre del participante	
+						Envíe copia del pago a los correos de contacto y WhatsApp, anexe el nombre del participante.
+					</li>
+					<li>
+						En caso de que el curso sea gratuito, solo es necesario confirmar asistencia.
 					</li>
 					<li>
 						¡Asista!
