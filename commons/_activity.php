@@ -55,14 +55,14 @@
 			<div class="description">
 				<ul>
 					<li>
-						Modalidad 40 (continuación voluntaria en el régimen obligado)
+						Modalidad 40 (continuación voluntaria en el régimen obligatorio)
 					</li>
 					<li>
 						Análisis indivudual de cada participante
 					</li>
 				</ul>
 				<p>
-					Salón Bepensa, calle 30, por 7 y 7A #151, Colonia García Gineres, Mérida, Yucatán.
+					INSTALACIONES DE COPARMEX, Salón BEPENSA, calle 30, por 7 y 7A #151, Colonia García Gineres, Canacintra, Mérida, Yucatán.
 				</p>
 			</div>
 		</div>
