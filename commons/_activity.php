@@ -62,7 +62,7 @@
 					</li>
 				</ul>
 				<p>
-					Salón Bepensa, calle 30, por 7 y 7A #151, Colonia García Gineres, Mérido, Yucatán.
+					Salón Bepensa, calle 30, por 7 y 7A #151, Colonia García Gineres, Mérida, Yucatán.
 				</p>
 			</div>
 		</div>
