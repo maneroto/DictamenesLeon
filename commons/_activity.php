@@ -37,8 +37,7 @@
 				<i class="fas fa-dollar-sign"></i> Gratuito
 			</div>
 			<div class="title">
-				¿Eres trabajador activo ante el IMSS?, ¿Cotizaste por lo menos 10 años con un patrón?.
-				Este curso es para tí, amigo trabajador y para el beneficio de tu familia
+				Este curso es para tí, amigo trabajador, y para el beneficio de tu familia
 			</div>
 			<i class="fas fa-hand-point-up icon"></i>
 			<div class="date">
@@ -51,7 +50,7 @@
 				curso
 			</div>
 			<div class="title">
-				Cómo mejorar tu pensión con inversión.
+				¿Eres trabajador activo ante el IMSS?, ¿Cotizaste por lo menos 10 años con un patrón?.
 			</div>
 			<div class="description">
 				<ul>
