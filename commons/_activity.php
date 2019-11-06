@@ -62,7 +62,7 @@
 					</li>
 				</ul>
 				<p>
-					Canacintra, Yucatán. Salón Bepensa, calle 30 x7 y 7A #151, Colonia García Gineres, Mérido, Yucatán.
+					Salón Bepensa, calle 30, por 7 y 7A #151, Colonia García Gineres, Mérido, Yucatán.
 				</p>
 			</div>
 		</div>
