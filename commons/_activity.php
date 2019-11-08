@@ -37,7 +37,7 @@
 				conferencia
 			</div>
 			<div class="price">
-				<i class="fas fa-dollar-sign"></i> Gratuito
+				<i class="fas fa-dollar-sign"></i> Gratis
 			</div>
 			<div class="title">
 				Conferencia gratuita: Modalidad 40 IMSS

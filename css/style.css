@@ -713,11 +713,14 @@ body {
     padding: 10px 5%}
 .footer .fixedWA {
     position: fixed;
-    bottom: 5%;
+    bottom: 2%;
     left: 5%;
-    font-size: var(--titleSize);
-    color: green;
+    font-size: var(--titleSize);\
     z-index: 99999;
+}
+.footerWA i
+{
+    color: #25D366;
 }
 .copyright {
     background-color: rgba(0, 0, 0, .3);
