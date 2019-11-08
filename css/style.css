@@ -718,9 +718,10 @@ body {
     font-size: var(--titleSize);\
     z-index: 99999;
 }
-.footerWA i
+.footer .fixedWA i
 {
     color: #25D366;
+    cursor: pointer;
 }
 .copyright {
     background-color: rgba(0, 0, 0, .3);
