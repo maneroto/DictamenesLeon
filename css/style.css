@@ -715,7 +715,9 @@ body {
     position: fixed;
     bottom: 5%;
     left: 5%;
-    font-size: var(--bigTitleSize);
+    font-size: var(--titleSize);
+    color: green;
+    z-index: 99999;
 }
 .copyright {
     background-color: rgba(0, 0, 0, .3);
