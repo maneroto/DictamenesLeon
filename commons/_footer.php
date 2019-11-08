@@ -1,4 +1,7 @@
 	<footer class="footer">
+		<div class="fixedWA">
+			<i class="fab fa-whatsapp"></i>
+		</div>
 		<div class="footerContent">
 			<div class="grid">
 				<div class="links">

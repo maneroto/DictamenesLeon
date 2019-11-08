@@ -711,6 +711,12 @@ body {
 }
 .footer .ubication {
     padding: 10px 5%}
+.footer .fixedWA {
+    position: fixed;
+    bottom: 5%;
+    left: 5%;
+    font-size: var(--bigTitleSize);
+}
 .copyright {
     background-color: rgba(0, 0, 0, .3);
     padding: 20px;

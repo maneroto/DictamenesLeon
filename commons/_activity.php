@@ -34,23 +34,23 @@
 	<div class="activity other">
 		<div class="front">
 			<div class="tag">
-				curso
+				conferencia
 			</div>
 			<div class="price">
 				<i class="fas fa-dollar-sign"></i> Gratuito
 			</div>
 			<div class="title">
-				Este curso es para tí, amigo trabajador, y para el beneficio de tu familia
+				Conferencia gratuita: Modalidad 40 IMSS
 			</div>
 			<i class="fas fa-hand-point-up icon"></i>
 			<div class="date">
 				17 de enero del 2020, de 10:00am a 12:30pm. Yucatán<br>
-				17 de enero del 2020, de 15:30pm a 17:30pm. Yucatán
+				17 de enero del 2020, <details></details> 15:30pm a 17:30pm. Yucatán
 			</div>
 		</div>
 		<div class="back">
 			<div class="tag">
-				curso
+				conferencia
 			</div>
 			<div class="title">
 				¿Eres trabajador activo ante el IMSS?, ¿Cotizaste por lo menos 10 años con un patrón?.
@@ -61,11 +61,16 @@
 						Modalidad 40 (continuación voluntaria en el régimen obligatorio)
 					</li>
 					<li>
-						Análisis indivudual de cada participante
+						Análisis individual de cada participante
 					</li>
 				</ul>
+				<br>
 				<p>
 					INSTALACIONES DE COPARMEX, Salón BEPENSA, calle 30, por 7 y 7A #151, Colonia García Gineres, Canacintra, Mérida, Yucatán.
+				</p>
+				<br>
+				<p>
+					Expositores: Germán Chávez Velázquez y Wilbert Jiménez Montejo
 				</p>
 			</div>
 		</div>
