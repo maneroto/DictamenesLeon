@@ -44,8 +44,8 @@
 			</div>
 			<i class="fas fa-hand-point-up icon"></i>
 			<div class="date">
-				17 de enero del 2020, de 10:00am a 12:30pm. Yucatán<br>
-				17 de enero del 2020, <details></details> 15:30pm a 17:30pm. Yucatán
+				17 de enero del 2020, de 10:00am a 12:30pm. Mérida, Yucatán<br>
+				17 de enero del 2020, de 15:30pm a 17:30pm. Mérida, Yucatán
 			</div>
 		</div>
 		<div class="back">
@@ -66,7 +66,7 @@
 				</ul>
 				<br>
 				<p>
-					INSTALACIONES DE COPARMEX, Salón BEPENSA, calle 30, por 7 y 7A #151, Colonia García Gineres, Canacintra, Mérida, Yucatán.
+					Canacintra, Salón BEPENSA, calle 30, por 7 y 7A #151, Colonia García Gineres, Mérida, Yucatán.
 				</p>
 				<br>
 				<p>
