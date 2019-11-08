@@ -714,7 +714,7 @@ body {
 .footer .fixedWA {
     position: fixed;
     bottom: 2%;
-    left: 5%;
+    left: 3%;
     font-size: var(--titleSize);\
     z-index: 99999;
 }
