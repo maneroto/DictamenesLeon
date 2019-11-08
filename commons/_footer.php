@@ -1,6 +1,8 @@
 	<footer class="footer">
 		<div class="fixedWA">
-			<i class="fab fa-whatsapp"></i>
+			<a href="https://wa.me/524778049612" target="_blank">
+				<i class="fab fa-whatsapp"></i>
+			</a>
 		</div>
 		<div class="footerContent">
 			<div class="grid">
