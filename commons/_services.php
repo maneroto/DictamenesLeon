@@ -45,7 +45,7 @@
 							Orfandad
 						</li>
 						<li>
-							Retiro, cesantía y vejez (Ley 73 estrategia personalizada para obtener mejor pensión con modalidad 40)  
+							Retiro, cesantía y vejez (Pensión IMSS ley 73, estrategia personalizada para obtener mejor pensión con modalidad 40 IMSS)  
 						</li>
 					</ul>
 				</div>
@@ -103,7 +103,7 @@
 				</div>
 				<div class="col">
 					<p class="primaryColor">
-						Invalidez y vida:
+						Seguro de Invalidez y vida ISSSTE:
 					</p>
 					<ul>
 						<li>
@@ -168,13 +168,13 @@
 				Afores
 			</h2>
 			<p>
-				Otorgamos servicios a <span class="primaryColor">GRUPOS FINANCIEROS</span> ramo de <span class="primaryColor">AFORE</span>, con la finalidad de brindarles capacitacion en las nuevas disposiciones y circulares que emita la <span class="primaryColor">CONSAR</span>, actualizando al promotor en los cambios de las legislaciones vigentes, establecidas con el nuevo gobierno que inició en 2018.
+				Otorgamos servicios a <span class="primaryColor">GRUPOS FINANCIEROS</span> en el ramo de <span class="primaryColor">AFORE</span>, con la finalidad de brindarles capacitacion en las nuevas disposiciones y circulares que emita la <span class="primaryColor">CONSAR</span>, actualizando al promotor en los cambios de las legislaciones vigentes, establecidas con el nuevo gobierno que inició en 2018.
 			</p>
 			<p>
-				Brindamos a las empresas, personal administrativo y promotores, los elementos y herramientas necesarios a fin de profundizar en los métodos de comercialización de las diferentes <span class="primaryColor">AFORE</span> del mercado mexicano, atendiendo siempre a la normatividad vigentes en traspasos, registros y revalidaciones de las cuentas individuales, sean de trancision o cuentas a partir de julio de 1997.
+				Brindamos a las empresas, personal administrativo y promotores, los elementos y herramientas necesarios a fin de profundizar en los métodos de comercialización de las diferentes <span class="primaryColor">AFORE</span> del mercado mexicano, atendiendo siempre a la normatividad vigente en traspasos, registros y revalidaciones de las cuentas individuales, sean de trancision o cuentas a partir de julio de 1997.
 			</p>
 			<p>
-				También dirigido a empresas que quieran beneficiar a sus trabajadores dándoles la oportunidad de conocer de una manera conceptual el beneficio de saber administrar y como elegir las <span class="primaryColor">AFORE</span> para su futuro:
+				También dirigido a empresas que quieran beneficiar a sus trabajadores dándoles la oportunidad de conocer de una manera conceptual el beneficio de saber administrar su cuenta individual de AFORE y como elegir las <span class="primaryColor">AFORE</span> para su futuro:
 			</p>
 			<p>
 				El objetivo de este curso es que los usuarios conozcan la utilidad del <span class="primaryColor">Sistema de Ahorro para el Retiro (SAR)</span>, conozcan cómo funciona su cuenta de ahorro para el retiro y cómo manejarla, cuáles son sus ventajas, y adquieran herramientas conceptuales que les permitan forjar hábitos de cultura previsional como el ahorro y la vigilancia de sus cuentas, además de que hacer en caso de requerir una pensión. 

@@ -1,6 +1,6 @@
 <?php
 	$title = 'Gerpensiones - Profesionales en seguridad social y laboral';
-	$keywords = 'pensiones, jubilados, jubilación, pensión, cesantía, vejez, incapacidad, orfandad, retiro, afore, afores, trámites, ahorro, retiro, pensiones imss, pensiones issste, pensiones en mexico, pensión imss ley 1973, pensión ley 73, tipos de pensión, cursos de pensiones, ¿Qué son las pensiones?, sistema de pensiones mexicano, modalidad 40';
+	$keywords = 'pensiones, jubilados, jubilación, pensión, cesantía, vejez, incapacidad, orfandad, retiro, afore, afores, trámites, ahorro, retiro, pensiones imss, pensiones issste, pensiones en mexico, pensión imss ley 1973, pensión ley 73, tipos de pensión, cursos de pensiones, ¿Qué son las pensiones?, sistema de pensiones mexicano, modalidad 40 IMSS, cuenta individual afore, seguro de invalidez y vida issste';
 	$description = 'GERPENSIONES ayuda tanto a los trabajadores que cotizan en la seguridad social en México como a las empresas, ofreciendo orientación con respecto al marco legal de las pensiones IMSS e ISSSTE, así como también de AFORES y SEGUROS.';
 
 	include('commons/_headOpen.php');
