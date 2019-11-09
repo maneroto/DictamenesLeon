@@ -20,7 +20,7 @@
 		$content .= "<p style='color: #ff3b3f; font-family: Arial;'>La siguiente persona llenó el formulario de Contacto:</p>";
 		$content .= "<p style='color: #333333; font-family: Arial;'>Nombre: ".$name."</p>";
 		$content .= "<p style='color: #333333; font-family: Arial;'>Correo eletrónico: ".$email."</p>";
-		$content .= "<p style='color: #333333; font-family: Arial;'>Teléfono: ".$serviceType."</p>";
+		$content .= "<p style='color: #333333; font-family: Arial;'>Tipo de servicio: ".$serviceType."</p>";
 		$content .= "<p style='color: #333333; font-family: Arial;'>Mensaje: ".$message."</p>";
 
 		include_once('class.phpmailer.php');
