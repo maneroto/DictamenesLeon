@@ -28,7 +28,6 @@
 		$mail = new PHPMailer();
 		$mail->From = "contacto@gerpensiones.com";
 		$mail->FromName = "Contacto - Gerpensiones";
-		$mail->AddAddress("maneroto@hotmail.com");
 		$mail->AddAddress("contacto@gerpensiones.com");
 		$mail->AddAddress("tuejecutivoas@gmail.com");		$mail->Subject = $subject;
 		$mail->Body = $content; 
